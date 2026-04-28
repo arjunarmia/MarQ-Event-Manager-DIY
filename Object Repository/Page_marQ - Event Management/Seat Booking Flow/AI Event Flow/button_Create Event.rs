@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Create Event</name>
+   <tag></tag>
+   <elementGuidId>280c925c-00e1-47cd-b2fb-f73eb49e5ad6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Create Event' or . = 'Create Event')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'button' and (text() = 'Create Event' or . = 'Create Event')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.EventsSidebar_smCreateBtn__HAOtc</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>81926f05-13e0-4df8-b756-1640d8fdbae5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ea61204a-8c3c-4414-9248-3c44ab4d7463</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>EventsSidebar_smCreateBtn__HAOtc</value>
+      <webElementGuid>0a26d1cb-b41c-4303-bf21-af35d3d83f68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Create Event</value>
+      <webElementGuid>e43fdb7d-b8a6-41c0-ac36-975b5c56b969</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Event</value>
+      <webElementGuid>84e7c37d-eeb9-4ac9-b9bb-d7516bfd9d09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;EventsSidebar_sidebar__Uj2dA&quot;)/div[@class=&quot;EventsSidebar_smHeaderTop__o8UBp&quot;]/div[@class=&quot;EventsSidebar_smCard__FYXQf&quot;]/button[@class=&quot;EventsSidebar_smCreateBtn__HAOtc&quot;]</value>
+      <webElementGuid>64bbca32-5426-4853-9a3d-79033ecb7a33</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>cbb82723-64bb-4194-989c-f324cf789afb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='EventsSidebar_sidebar__Uj2dA']/div[2]/div[2]/button</value>
+      <webElementGuid>e774f208-b390-41d6-81b4-3b29a6a4d520</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Creating or adding new tasks couldn’t be easier'])[1]/following::button[1]</value>
+      <webElementGuid>e5f3d01f-5804-4cb6-bc79-b144e47a337f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Let’s start!'])[1]/following::button[1]</value>
+      <webElementGuid>c573bfc1-b289-403c-8241-64465faf30c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MAIN'])[1]/preceding::button[1]</value>
+      <webElementGuid>fed974ad-7c86-41c7-8807-938a59be117a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::button[1]</value>
+      <webElementGuid>c629b144-2a4c-4938-8418-5a7642499669</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create Event']/parent::*</value>
+      <webElementGuid>ea8bedc8-e054-46bf-8129-145d1e1e66bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/button</value>
+      <webElementGuid>8f30c0a5-6ec3-45c6-aebd-f8d0ce84ee03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Create Event' or . = 'Create Event')]</value>
+      <webElementGuid>8f813d19-804c-4269-9d4d-5c167d13fc9b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

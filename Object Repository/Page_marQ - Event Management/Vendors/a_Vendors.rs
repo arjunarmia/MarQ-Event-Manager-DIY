@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Vendors</name>
+   <tag></tag>
+   <elementGuidId>b9c3e5b7-ed0c-4324-96b6-126e961e10cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = '/vendors']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;\/vendors&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bd5291ea-fe2b-43e2-bc6c-f2f7c6a5bc8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>EventsSidebar_smItemLink__nOuFW</value>
+      <webElementGuid>20d477c1-5b76-44bb-9dc2-cc22ea14e113</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/vendors</value>
+      <webElementGuid>a6211d81-2053-44d0-88f7-15bb187f912b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Vendors</value>
+      <webElementGuid>966e1fda-e662-4c48-9d75-dd1ea1bd72e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-43f4dd432c12fe822428bdd3b183e48f</value>
+      <webElementGuid>78a9a70f-533a-4a57-86b4-7f9b4b9d68a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = '/vendors']</value>
+      <webElementGuid>ba947247-32a8-45fe-ac03-842da18b8c90</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = '/vendors']</value>
+      <webElementGuid>86f1f8db-deb2-4288-a5c8-e56fe33d4d99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/vendors' and (text() = 'Vendors' or . = 'Vendors')]</value>
+      <webElementGuid>2e4741da-316b-49ef-a6fa-bbcd74a983de</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

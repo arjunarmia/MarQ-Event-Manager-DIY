@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ticketingPaid_Add Coupon Code</name>
+   <tag></tag>
+   <elementGuidId>a9df3c5c-193c-473b-bb47-58df9ed058b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.TicketAndPricing_cardHeaderRow__K4veS > button.TicketAndPricing_secondaryButton__NcQ-7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'button' and (text() = 'Add Coupon Code' or . = 'Add Coupon Code')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8f423903-c06b-456d-8730-6b8311b8d658</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fcbd7ee8-f321-49d4-b459-0c2bec808273</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>TicketAndPricing_secondaryButton__NcQ-7</value>
+      <webElementGuid>46e7083e-6820-40d9-a0bb-b2825658293a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Coupon Code</value>
+      <webElementGuid>c66016a5-e625-4766-bc73-b4f3671dda99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;panel-paid&quot;)/section[@class=&quot;TicketAndPricing_section__yLPcg TicketAndPricing_sectionPromo__PPwFw&quot;]/div[@class=&quot;TicketAndPricing_cardHeader__ki+38&quot;]/div[@class=&quot;TicketAndPricing_cardHeaderRow__K4veS&quot;]/button[@class=&quot;TicketAndPricing_secondaryButton__NcQ-7&quot;]</value>
+      <webElementGuid>bd0a9a25-7913-4bec-b2f0-f1c3832a3a08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[23]</value>
+      <webElementGuid>538fa0cc-f67c-4d62-87ba-88c8cfcd5342</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='panel-paid']/section[2]/div/div/button</value>
+      <webElementGuid>6a41693f-a3d3-42f5-9fea-4729b9211a74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotional Codes'])[1]/following::button[1]</value>
+      <webElementGuid>8ba1912a-7b47-46f0-b4fc-02ec00c183d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[8]/following::button[2]</value>
+      <webElementGuid>ab9ed882-cbd5-45cb-bfc1-9d79297a9ce5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Coupon'])[1]/preceding::button[1]</value>
+      <webElementGuid>17545ad0-771e-4dcd-a3ff-b33430f5b669</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/div/button</value>
+      <webElementGuid>179b80e3-3680-4492-a7f0-20e9bfb22b1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Add Coupon Code' or . = 'Add Coupon Code')]</value>
+      <webElementGuid>b61cc612-eecb-4d81-959a-8850912dd76d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

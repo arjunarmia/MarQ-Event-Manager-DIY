@@ -1,0 +1,156 @@
+2026-04-28 10:16:47.276 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Arjun\.katalon\packages\KS-11.1.1\configuration\org.eclipse.osgi\150\0\.cp\resources\logback\logback-execution.xml
+2026-04-28 10:16:47.280 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Arjun\git\MarQ-Event-Manager-DIY\Include\config\log.properties
+2026-04-28 10:16:48.174 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/6. RSVP Booking Flow
+2026-04-28 10:16:48.266 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Arjun R Nath
+2026-04-28 10:16:48.268 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = MarQ-Event-Manager-DIY
+2026-04-28 10:16:48.269 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Arjun - ARM1221-004
+2026-04-28 10:16:48.273 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-04-28 10:16:48.274 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.18.0.39
+2026-04-28 10:16:48.276 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.1.0
+2026-04-28 10:16:48.443 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-28 10:16:48.444 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/6. RSVP Booking Flow/TC15 - RSVP Booking Event Flow Offline
+2026-04-28 10:16:49.014 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 1: testData = ["url":"https://marq.iscriptsdemo.com/login", "email":"success.test@yopmail.com", "pass":"Test@123", "prompt":"Create a RSVP-Based Booking Test Event", ... ]
+2026-04-28 10:16:49.017 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 2: openBrowser(url)
+2026-04-28 10:16:49.396 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-28 10:16:49.450 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-28 10:16:52.274 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = dbe71fa3375d3efc79d9e1be3c9cb3cf
+2026-04-28 10:16:52.276 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-28 10:16:52.277 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-28 10:16:52.279 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-28 10:16:52.291 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-28 10:16:56.831 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 3: maximizeWindow()
+2026-04-28 10:16:56.985 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 4: setText(findTestObject("Page_marQ - Event Management/Logout/input_Enter Your Email Address"), email)
+2026-04-28 10:17:00.271 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 5: setText(findTestObject("Page_marQ - Event Management/Logout/input_Enter Your Password"), pass)
+2026-04-28 10:17:01.142 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 6: click(findTestObject("Page_marQ - Event Management/Logout/input_logIn_loginbtn_LnnFD"))
+2026-04-28 10:17:01.588 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 7: waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event"), 30)
+2026-04-28 10:17:16.620 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 8: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event"))
+2026-04-28 10:17:26.253 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 9: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/textarea_AI_eventPrompt"), prompt)
+2026-04-28 10:17:28.939 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 10: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Generate Setup"))
+2026-04-28 10:17:29.647 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 11: waitForElementVisible(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup"), 30)
+2026-04-28 10:17:40.251 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 12: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup"))
+2026-04-28 10:17:40.672 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 13: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup_Draft"))
+2026-04-28 10:17:43.874 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 14: click(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/button_EventCategory_rsvpEvent"))
+2026-04-28 10:17:47.352 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 15: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Save draft  Continue"))
+2026-04-28 10:17:47.771 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 16: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/input_Event Basics_eventName"), eventName)
+2026-04-28 10:17:56.865 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 17: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_startup"))
+2026-04-28 10:17:57.332 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 18: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_Next"))
+2026-04-28 10:17:58.004 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 19: enhancedClick(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndDate"))
+2026-04-28 10:18:04.163 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 20: com.utils.CalendarHelper.selectDate(startMY, startDate)
+2026-04-28 10:18:09.283 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.utils.CalendarHelper.selectDate is PASSED
+2026-04-28 10:18:09.283 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 21: enhancedClick(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartDate"))
+2026-04-28 10:18:09.896 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 22: com.utils.CalendarHelper.selectDate(endMY, endDate)
+2026-04-28 10:18:14.506 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.utils.CalendarHelper.selectDate is PASSED
+2026-04-28 10:18:14.506 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 23: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartTime"))
+2026-04-28 10:18:15.131 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 24: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":hour]))
+2026-04-28 10:18:15.744 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 25: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":min]))
+2026-04-28 10:18:16.179 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 26: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndTime"))
+2026-04-28 10:18:16.603 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 27: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":hour]))
+2026-04-28 10:18:17.236 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 28: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":min]))
+2026-04-28 10:18:17.646 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 29: setText(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/input_DateAndLocation_physicalVenue"), location)
+2026-04-28 10:18:18.551 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 30: setText(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/input_DateAndLocation_physicalLocation"), location)
+2026-04-28 10:18:19.521 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 31: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Location Configuration/div_eventLocation_selectionAddress"))
+2026-04-28 10:18:21.226 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 32: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_DateLocation_Next"))
+2026-04-28 10:18:21.610 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 33: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-facebook"), fbUrl, OPTIONAL)
+2026-04-28 10:18:28.140 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 34: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-instagram"), igUrl, OPTIONAL)
+2026-04-28 10:18:29.228 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 35: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/button_mediaBranding_Next"))
+2026-04-28 10:18:29.741 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 36: waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/button_BuildSchedule_addSession"), 10)
+2026-04-28 10:18:35.677 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 37: click(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/button_BuildSchedule_addSession"))
+2026-04-28 10:18:36.078 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 38: setText(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/input__BuildSchedule_location"), location)
+2026-04-28 10:18:37.298 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 39: click(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/button_BuildSchedule_startTime"))
+2026-04-28 10:18:37.702 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 40: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":hour]))
+2026-04-28 10:18:38.419 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 41: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":min]))
+2026-04-28 10:18:38.844 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 42: click(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/button_BuildSchedule_endTime"))
+2026-04-28 10:18:39.285 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 43: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":hour]))
+2026-04-28 10:18:39.971 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 44: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":min]))
+2026-04-28 10:18:40.349 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 45: setText(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/input_BuildSchedule_sessionTitle"), title)
+2026-04-28 10:18:41.247 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 46: setText(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/input_BuildSchedule_sessionSpeaker"), speaker)
+2026-04-28 10:18:42.066 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 47: setText(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/input_BuildSchedule_streamingLink"), link)
+2026-04-28 10:18:43.069 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 48: setText(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/textarea_BuildSchedule_descriptionNotes"), desc)
+2026-04-28 10:18:44.254 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 49: click(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/button_BuildSchedule_Next"))
+2026-04-28 10:18:44.870 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 50: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_policyDetails_AI suggest"))
+2026-04-28 10:18:50.784 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 51: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_tandC_AI suggest"))
+2026-04-28 10:18:55.063 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 52: waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_Next"), 10)
+2026-04-28 10:18:58.791 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 53: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_Next"))
+2026-04-28 10:18:59.265 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 54: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_tandn_Next"))
+2026-04-28 10:19:04.741 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 55: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/input_addDet_eventDesc"), eventDesc)
+2026-04-28 10:19:11.481 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 56: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_addDet_Next"))
+2026-04-28 10:19:12.147 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 57: waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish"), 20)
+2026-04-28 10:19:20.212 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 58: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish"))
+2026-04-28 10:19:20.605 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 59: verifyElementPresent(findTestObject("Object Repository/Page_marQ - Event Management/Dashboard/events_Logo"), 15)
+2026-04-28 10:19:35.605 DEBUG t.TC15 - RSVP Booking Event Flow Offline - 60: closeBrowser()
+2026-04-28 10:19:35.959 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/6. RSVP Booking Flow/TC15 - RSVP Booking Event Flow Offline
+2026-04-28 10:19:35.967 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-28 10:19:35.967 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/6. RSVP Booking Flow/TC16 - RSVP Booking Event Flow Online
+2026-04-28 10:19:36.196 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 1: testData = ["url":"https://marq.iscriptsdemo.com/login", "email":"success.test@yopmail.com", "pass":"Test@123", "prompt":"Create a RSVP-Based Booking Test Event", ... ]
+2026-04-28 10:19:36.197 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 2: openBrowser(url)
+2026-04-28 10:19:36.204 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-28 10:19:36.206 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-28 10:19:37.609 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ce1d9e235f315eb575a6c0204412eb46
+2026-04-28 10:19:37.610 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-28 10:19:37.612 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-28 10:19:37.613 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-28 10:19:37.614 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-28 10:19:42.222 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 3: maximizeWindow()
+2026-04-28 10:19:42.325 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 4: setText(findTestObject("Page_marQ - Event Management/Logout/input_Enter Your Email Address"), email)
+2026-04-28 10:19:44.874 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 5: setText(findTestObject("Page_marQ - Event Management/Logout/input_Enter Your Password"), pass)
+2026-04-28 10:19:45.644 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 6: click(findTestObject("Page_marQ - Event Management/Logout/input_logIn_loginbtn_LnnFD"))
+2026-04-28 10:19:46.050 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 7: waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event"), 30)
+2026-04-28 10:19:59.404 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 8: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event"))
+2026-04-28 10:19:59.805 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 9: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/textarea_AI_eventPrompt"), prompt)
+2026-04-28 10:20:02.024 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 10: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Generate Setup"))
+2026-04-28 10:20:02.636 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 11: waitForElementVisible(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup"), 30)
+2026-04-28 10:20:08.897 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 12: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup"))
+2026-04-28 10:20:09.415 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 13: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup_Draft"))
+2026-04-28 10:20:12.884 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 14: click(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/button_EventCategory_rsvpEvent"))
+2026-04-28 10:20:16.329 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 15: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Save draft  Continue"))
+2026-04-28 10:20:16.702 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 16: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/input_Event Basics_eventName"), eventName)
+2026-04-28 10:20:26.519 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 17: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_startup"))
+2026-04-28 10:20:26.979 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 18: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_Next"))
+2026-04-28 10:20:27.612 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 19: enhancedClick(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndDate"))
+2026-04-28 10:20:34.396 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 20: com.utils.CalendarHelper.selectDate(startMY, startDate)
+2026-04-28 10:20:39.198 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.utils.CalendarHelper.selectDate is PASSED
+2026-04-28 10:20:39.198 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 21: enhancedClick(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartDate"))
+2026-04-28 10:20:39.779 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 22: com.utils.CalendarHelper.selectDate(endMY, endDate)
+2026-04-28 10:20:44.383 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.utils.CalendarHelper.selectDate is PASSED
+2026-04-28 10:20:44.383 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 23: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartTime"))
+2026-04-28 10:20:45.042 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 24: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":hour]))
+2026-04-28 10:20:45.711 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 25: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":min]))
+2026-04-28 10:20:46.128 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 26: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndTime"))
+2026-04-28 10:20:46.518 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 27: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":hour]))
+2026-04-28 10:20:47.160 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 28: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":min]))
+2026-04-28 10:20:47.597 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 29: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_Online Event"))
+2026-04-28 10:20:48.025 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 30: selectOptionByLabel(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_selectPlatform"), platform, false)
+2026-04-28 10:20:48.996 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 31: setText(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/input_DateAndLocation_streamingUrl"), streamUrl)
+2026-04-28 10:20:50.313 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 32: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_DateLocation_Next"))
+2026-04-28 10:20:50.710 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 33: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-facebook"), fbUrl, OPTIONAL)
+2026-04-28 10:20:56.378 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 34: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-instagram"), igUrl, OPTIONAL)
+2026-04-28 10:20:57.527 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 35: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/button_mediaBranding_Next"))
+2026-04-28 10:20:58.024 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 36: waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/button_BuildSchedule_addSession"), 10)
+2026-04-28 10:21:03.739 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 37: click(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/button_BuildSchedule_addSession"))
+2026-04-28 10:21:04.163 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 38: setText(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/input__BuildSchedule_location"), location)
+2026-04-28 10:21:05.394 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 39: click(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/button_BuildSchedule_startTime"))
+2026-04-28 10:21:05.917 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 40: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":hour]))
+2026-04-28 10:21:06.639 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 41: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":min]))
+2026-04-28 10:21:07.111 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 42: click(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/button_BuildSchedule_endTime"))
+2026-04-28 10:21:07.555 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 43: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":hour]))
+2026-04-28 10:21:08.250 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 44: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":min]))
+2026-04-28 10:21:08.660 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 45: setText(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/input_BuildSchedule_sessionTitle"), title)
+2026-04-28 10:21:09.592 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 46: setText(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/input_BuildSchedule_sessionSpeaker"), speaker)
+2026-04-28 10:21:10.459 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 47: setText(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/input_BuildSchedule_streamingLink"), link)
+2026-04-28 10:21:11.575 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 48: setText(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/textarea_BuildSchedule_descriptionNotes"), desc)
+2026-04-28 10:21:12.692 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 49: click(findTestObject("Object Repository/Page_marQ - Event Management/RSVP Booking Flow/button_BuildSchedule_Next"))
+2026-04-28 10:21:13.395 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 50: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_policyDetails_AI suggest"))
+2026-04-28 10:21:19.439 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 51: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_tandC_AI suggest"))
+2026-04-28 10:21:23.260 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 52: waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_Next"), 10)
+2026-04-28 10:21:29.722 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 53: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_Next"))
+2026-04-28 10:21:30.093 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 54: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_tandn_Next"))
+2026-04-28 10:21:35.513 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 55: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/input_addDet_eventDesc"), eventDesc)
+2026-04-28 10:21:41.470 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 56: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_addDet_Next"))
+2026-04-28 10:21:42.084 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 57: waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish"), 20)
+2026-04-28 10:21:49.335 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 58: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish"))
+2026-04-28 10:21:49.741 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 59: verifyElementPresent(findTestObject("Object Repository/Page_marQ - Event Management/Dashboard/events_Logo"), 15)
+2026-04-28 10:22:02.669 DEBUG t.TC16 - RSVP Booking Event Flow Online  - 60: closeBrowser()
+2026-04-28 10:22:02.988 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/6. RSVP Booking Flow/TC16 - RSVP Booking Event Flow Online
+2026-04-28 10:22:03.020 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-04-28 10:22:03.020 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/6. RSVP Booking Flow
+2026-04-28 10:22:03.020 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

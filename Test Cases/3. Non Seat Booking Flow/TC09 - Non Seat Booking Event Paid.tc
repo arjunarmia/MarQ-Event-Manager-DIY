@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09 - Non Seat Booking Event Paid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ffbda7ca-82cd-4855-8271-29b4b4e20fad</testCaseGuid>
+</TestCaseEntity>

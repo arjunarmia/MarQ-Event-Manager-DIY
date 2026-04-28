@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_sendMessage_firstMail</name>
+   <tag></tag>
+   <elementGuidId>609aada1-3a30-46ed-afef-e5472d18355f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(name() = 'div') and (position() = 2)]/*[(name() = 'div') and (position() = 2)]//*[(@role = 'button') and (position() = 1)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-child(2) > div:nth-child(2) [role=&quot;button&quot;]:nth-child(1)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2b0cdb39-96e5-4d1c-9315-e09f880e83c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5b30ac25-a02f-475c-89e1-7329454ec460</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>5ed4877a-2473-4d50-8aa6-e4b8e6fba1c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Benjamin Kirby Tennysonben10000@yopmail.comPhone: 12441241241</value>
+      <webElementGuid>2c1d1946-8c28-4581-ab87-11bdf07fd84c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-60f482aa8869b968fa826683d02f0413</value>
+      <webElementGuid>4e6917c0-99d4-4be3-ac03-0c8013ee864a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(name() = 'div') and (position() = 2)]/*[(name() = 'div') and (position() = 2)]//*[(@role = 'button') and (position() = 1)]</value>
+      <webElementGuid>ea48b834-d6b3-4664-af7f-dda9141259b4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(name() = 'div') and (position() = 2)]/*[(name() = 'div') and (position() = 2)]//*[(@role = 'button') and (position() = 1)]</value>
+      <webElementGuid>7d60c150-8eca-4d6b-9a29-a59d718a963a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Benjamin Kirby Tennysonben10000@yopmail.comPhone: 12441241241' or . = 'Benjamin Kirby Tennysonben10000@yopmail.comPhone: 12441241241')]</value>
+      <webElementGuid>21e5e887-2d25-4984-8635-686150cd6fb0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

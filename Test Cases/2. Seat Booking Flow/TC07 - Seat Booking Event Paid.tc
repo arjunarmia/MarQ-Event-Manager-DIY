@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07 - Seat Booking Event Paid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c36457a2-4443-43f7-89cd-fc0643834a28</testCaseGuid>
+</TestCaseEntity>

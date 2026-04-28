@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13 - Token Booking Event Online</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>41c3971b-67b2-4d46-81d3-1c1c15f0280f</testCaseGuid>
+</TestCaseEntity>

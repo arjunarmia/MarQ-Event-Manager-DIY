@@ -1,0 +1,253 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+String browserUrl = 'https://marq.iscriptsdemo.com/login'
+
+String testEmail = "success.test@yopmail.com"
+String testPassword = "Test@123"
+
+String aiPrompt = "Create a Seat Booking Test Event"
+String testEventName = "Seat Event Test K"
+
+String eventStartMonthYear = "June 2026"
+String eventStartDate = "3"
+
+String eventEndMonthYear = "June 2026"
+String eventEndDate = "7"
+
+String eventStartHour = '05'
+String eventStartMinute = '30'
+String eventEndHour = '13'
+String eventEndMinute = '15'
+
+String regStartDate = "30"
+String regStartMonthYear = "May 2026"
+String regEndDate = "2"
+String regEndMonthYear = "June 2026"
+
+String totalFreeTickets = 50
+
+String eventLocation = 'Casablanca'
+
+String raffleName = "Raffle Katalon"
+String rafflePrice = 2
+String raffleTotalTickets = 100
+String raffleMaxPerUser = 5
+
+String raffleDate = "9"
+String raffleMonthYear = "June 2026"
+String raffleHour = '05'
+String raffleMinute = '30'
+
+String testFacebook = "https://www.facebook.com/SachinTendulkar/"
+String testInstagram = "https://www.instagram.com/sachintendulkar/?hl=en"
+
+String foodItemName = "Katalon Food Item"
+String foodItemDesc = "Katalon Food Item description"
+String foodItemPrice = 5
+
+String cancellationDate = '2'
+String cancellationMonthYear = 'June 2026'
+
+String eventDescription = "Seat Booking Event Testing Using Katalon"
+
+
+WebUI.openBrowser(browserUrl)
+WebUI.maximizeWindow()
+
+// Login
+WebUI.setText(findTestObject('Page_marQ - Event Management/Logout/input_Enter Your Email Address'), testEmail)
+WebUI.setText(findTestObject('Page_marQ - Event Management/Logout/input_Enter Your Password'), testPassword)
+WebUI.click(findTestObject('Page_marQ - Event Management/Logout/input_logIn_loginbtn_LnnFD'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event'), 30)
+
+// 1. Click Create Event
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event'))
+
+// 2. Enter AI Prompt and click generate
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/textarea_AI_eventPrompt'), aiPrompt)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Generate Setup'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup'), 30)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup_Draft'))
+
+// 3. Select Event Category
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Seat Booking Event'), 20)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Seat Booking Event'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Save draft  Continue'))
+
+// 4. Event Basics
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/input_Event Basics_eventName'), 20)
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/input_Event Basics_eventName'), testEventName)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_startup'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_Next'))
+
+// 5. Date and Location
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_end_calendar'), 20)
+WebUI.enhancedClick(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_end_calendar')) 
+
+while (!WebUI.getText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header')).equals(eventEndMonthYear)) {
+    WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/btn_next_month'))
+    WebUI.delay(1)
+}
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calendar_day', [('day') : eventEndDate]))
+
+WebUI.enhancedClick(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_start_calendar'))
+while (!WebUI.getText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header')).equals(eventStartMonthYear)) {
+    WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/btn_next_month'))
+    WebUI.delay(1)
+}
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calendar_day', [('day') : eventStartDate]))
+
+// Time selection
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_start_time'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/time_hour_select', [('timeValue') : eventStartHour]))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/time_minute_select', [('minuteValue') : eventStartMinute]))
+
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_end_time'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/time_hour_select', [('timeValue') : eventEndHour]))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/time_minute_select', [('minuteValue') : eventEndMinute]))
+
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_DateLocation_Next'))
+
+// 6. Ticketing
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Ticketing and Pricing/button_Free Event'), 20)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Ticketing and Pricing/button_Free Event'))
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Ticketing and Pricing/input_Total Tickets Available'), totalFreeTickets)
+
+// Registration Dates
+WebUI.enhancedClick(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Ticketing and Pricing/input_reg_end_month'))
+while (!WebUI.getText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header')).equals(regEndMonthYear)) {
+    WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/btn_next_month'))
+    WebUI.delay(1)
+}
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calendar_day', [('day') : regEndDate]))
+
+WebUI.enhancedClick(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Ticketing and Pricing/input_reg_start_month'))
+while (!WebUI.getText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header')).equals(regStartMonthYear)) {
+    WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/btn_next_month'))
+    WebUI.delay(1)
+}
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calendar_day', [('day') : regStartDate]))
+
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Ticketing and Pricing/button_Ticketing_Next'))
+
+// 7. Location Configuration
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Location Configuration/input_eventLocation_venueName'), 30)
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Location Configuration/input_eventLocation_venueName'), eventLocation)
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Location Configuration/input_eventLocation_address'), eventLocation)
+
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Location Configuration/div_eventLocation_selectionAddress'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Location Configuration/select_eventLocation_seatMap'), '698dac1b3d93d9839087558a', false)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Location Configuration/button_eventLocation_Next'))
+
+// 8. Raffle Configuration
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Raffle Config/div_Raffle Configuration_toggle'), 30)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Raffle Config/div_Raffle Configuration_toggle'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Raffle Config/input__raffleTicketName'), 10)
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Raffle Config/input__raffleTicketName'), raffleName)
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Raffle Config/input__pricePerTicket'), rafflePrice)
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Raffle Config/input__totalTicketsAvailable'), raffleTotalTickets)
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Raffle Config/input_Maximum Tickets per User_maxTicketsPerUser'), raffleMaxPerUser)
+
+WebUI.enhancedClick(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Raffle Config/input_raffle_drawDate'))
+while (!WebUI.getText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header')).equals(raffleMonthYear)) {
+    WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/btn_next_month'))
+    WebUI.delay(1)
+}
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calendar_day', [('day') : raffleDate]))
+
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Raffle Config/button_raffle_drawTime'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Raffle Config/raffle_timeHour', [('timeValue') : raffleHour]))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Raffle Config/raffle_timeMinute', [('timeValue') : raffleMinute]))
+
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Raffle Config/button_raffleConfig_PrizeDesc_AI Assist'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Raffle Config/button_raffleConfig_RaffleRules_AI suggest'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Raffle Config/input_raffleConfig_required'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Raffle Config/button_raffleConfig_Next'))
+
+// 9. Payment Methods
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Ticketing and Pricing/button_Cash_PaymentMethods_toggle'), 20)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Ticketing and Pricing/button_Cash_PaymentMethods_toggle'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Ticketing and Pricing/button_Zelle_PaymentMethods_toggle'))
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Ticketing and Pricing/input__zelleEmail'), testEmail)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Ticketing and Pricing/button_paymentMethod_Next'))
+
+// 10. Media and Branding
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-facebook'), 20)
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-facebook'), testFacebook)
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-instagram'), testInstagram)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/button_mediaBranding_Next'))
+
+// 11. Food and Beverage
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_Add Vendor'), 20)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_Add Vendor'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_Add from Existing'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_Stallvendoryopmail.com'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_Add Item'), 10)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_Add Item'))
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/input_Item name'), foodItemName)
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/textarea_itemDescription'), foodItemDesc)
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/input_new-item-price'), foodItemPrice)
+
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_Add Item_modal'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_Buy Onsite_FoodAndBeverages_toggle'))
+WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_food_Next'))
+
+// 12. Attendee Register
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Attendee Registration/button_Attendee_Next'), 20)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Attendee Registration/button_Attendee_Next'))
+
+// 13. Terms and Settings
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_policyDetails_AI suggest'), 20)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_policyDetails_AI suggest'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_Cancellation'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/input_tands_cancellationDate'))
+
+while (!WebUI.getText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header')).equals(cancellationMonthYear)) {
+    WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/btn_next_month'))
+    WebUI.delay(1)
+}
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calendar_day', [('day') : cancellationDate]))
+
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_tandC_AI suggest'))
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_Next'))
+
+// 14. Terms and Notes
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_tandn_Next'), 20)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_tandn_Next'))
+
+// 15. Additional Details
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/input_addDet_eventDesc'), 20)
+WebUI.setText(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/input_addDet_eventDesc'), eventDescription)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_addDet_Next'))
+
+// 16. Publish
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish'), 30)
+WebUI.click(findTestObject('Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_marQ - Event Management/Dashboard/events_Logo'), 30)
+WebUI.closeBrowser()

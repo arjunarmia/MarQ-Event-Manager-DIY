@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12 - Token Booking Event Offline</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d011c24c-4115-46fb-9fe5-37f1d9569a75</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_eventCategory_nonSeatBooking</name>
+   <tag></tag>
+   <elementGuidId>40ef16e4-7af0-402f-ae3e-88938605e718</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@aria-label = 'Select Non-Seat Booking Event']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>article.ChooseType_card__aZHZQ.ChooseType_cardSelected__Ozl2I</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>article</value>
+      <webElementGuid>d1c03edd-b9ec-4ce0-b1c2-963cb46afee2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8b1de705-4f11-40f8-96ce-b80a67573221</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>d0947aee-9ead-4795-911d-0bf0beaf57b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ChooseType_card__aZHZQ ChooseType_cardSelected__Ozl2I</value>
+      <webElementGuid>699fdbb9-e159-44d9-aabd-7c5a47c8f035</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-pressed</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>318661ee-6f6e-47a6-b3ec-79048f5d3104</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Select Non-Seat Booking Event</value>
+      <webElementGuid>21fc56cf-e923-45bc-a7b2-f6e78a717f34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Non-Seat Booking EventGreat for festivals, standing concerts, and open venues. General admission with capacity limits but no assigned seats.General AdmissionPaid/Free</value>
+      <webElementGuid>933ecc75-0f6e-45b3-8d24-eb29a135d9f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;ChooseType_chooseTypeWrapper__yMK3m&quot;]/div[@class=&quot;ChooseType_inner__Vfg-H&quot;]/main[@class=&quot;ChooseType_main__2am1g&quot;]/section[@class=&quot;ChooseType_grid__-dLcC&quot;]/article[@class=&quot;ChooseType_card__aZHZQ ChooseType_cardSelected__Ozl2I&quot;]</value>
+      <webElementGuid>f2f13522-39df-46fb-8f0b-8de336f9b5bd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/main/section/article[2]</value>
+      <webElementGuid>5c32ff40-d863-4328-a6e4-c20f44ffac71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paid/Free'])[1]/following::article[1]</value>
+      <webElementGuid>35342e72-97da-419d-9260-ccc3b1962503</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reserved Seating'])[1]/following::article[1]</value>
+      <webElementGuid>b8245351-894a-4139-8bde-8f8811087688</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article[2]</value>
+      <webElementGuid>645e31d2-4750-4df4-bcfb-621b28a74341</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//article[(text() = 'Non-Seat Booking EventGreat for festivals, standing concerts, and open venues. General admission with capacity limits but no assigned seats.General AdmissionPaid/Free' or . = 'Non-Seat Booking EventGreat for festivals, standing concerts, and open venues. General admission with capacity limits but no assigned seats.General AdmissionPaid/Free')]</value>
+      <webElementGuid>0bcc7ea5-c08b-4d8e-bc9f-6d4f07e9fd10</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

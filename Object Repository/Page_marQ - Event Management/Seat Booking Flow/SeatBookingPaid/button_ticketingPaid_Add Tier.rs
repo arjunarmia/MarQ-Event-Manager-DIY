@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ticketingPaid_Add Tier</name>
+   <tag></tag>
+   <elementGuidId>2a7d228f-22d6-4052-ab95-7bd99fda8c14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.TicketAndPricing_secondaryButton__NcQ-7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'button' and (text() = 'Add Tier' or . = 'Add Tier')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>144dd05d-8c1e-4f28-a9c9-0220584077a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>451f489c-2ca3-48c3-a94f-b2b592bf49b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>TicketAndPricing_secondaryButton__NcQ-7</value>
+      <webElementGuid>d6a6d927-066b-4d98-95c8-4fbfbb2a70d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Tier</value>
+      <webElementGuid>573fea00-0ea1-4d71-aaf5-9ac95721ef36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;panel-paid&quot;)/div[@class=&quot;TicketAndPricing_sectionHeader__78hSX&quot;]/button[@class=&quot;TicketAndPricing_secondaryButton__NcQ-7&quot;]</value>
+      <webElementGuid>65272c4a-b28e-4813-9cb5-c5f7b8a6e4d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[19]</value>
+      <webElementGuid>9c18ea1d-ac57-4369-83db-968ec2545424</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='panel-paid']/div/button</value>
+      <webElementGuid>738c1cfa-6739-49b5-8610-81b623f0cf23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ticket Tiers &amp; Pricing'])[1]/following::button[1]</value>
+      <webElementGuid>45432e89-b9eb-4ba3-a1e9-72e4efffa738</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Based on similar events.'])[1]/following::button[1]</value>
+      <webElementGuid>ec61ca9a-4454-4577-b85f-df85b268db47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Tier'])[2]/preceding::button[1]</value>
+      <webElementGuid>c6a0f4f4-3d83-4285-9839-ca053359b70b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/button</value>
+      <webElementGuid>86f044fe-54dc-4827-a1ec-299f3c197439</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Add Tier' or . = 'Add Tier')]</value>
+      <webElementGuid>9d4cd1cb-b8eb-4756-8045-2eeec93703d5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

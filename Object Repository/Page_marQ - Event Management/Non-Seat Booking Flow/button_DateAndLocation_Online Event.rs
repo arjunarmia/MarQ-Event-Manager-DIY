@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_DateAndLocation_Online Event</name>
+   <tag></tag>
+   <elementGuidId>a15f6f0e-b622-42dc-9bb5-37732dd2dfbb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'button' and (text() = 'Online Event' or . = 'Online Event')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d7a792eb-75a9-46c9-a774-04e2f422d371</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f1806bea-5294-438a-8fb7-07d97d1b19bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>DateAndLocation_toggleButton__bOvcB </value>
+      <webElementGuid>1efd406e-20ef-4442-8305-2e4f70f5dc0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Online Event</value>
+      <webElementGuid>b1c9b158-fcd1-44f2-b512-a1acf363eb6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;DateAndLocation_dateAndLocationWrapper__eHXvP&quot;]/div[@class=&quot;DateAndLocation_mainContainer__y3K4X&quot;]/div[@class=&quot;DateAndLocation_mainContent__W13na&quot;]/div[@class=&quot;DateAndLocation_contentInner__U49Eb&quot;]/section[@class=&quot;DateAndLocation_section__+zCCJ DateAndLocation_sectionEventLocation__Ucd5u&quot;]/div[@class=&quot;DateAndLocation_locationToggle__zquui&quot;]/button[@class=&quot;DateAndLocation_toggleButton__bOvcB&quot;]</value>
+      <webElementGuid>c52d1f69-ed3a-49a5-8ca8-a3c770eb9149</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[22]</value>
+      <webElementGuid>62f4c2d6-6997-47ee-b7ff-5486b0487cf4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/div/div[2]/section[2]/div[2]/button[2]</value>
+      <webElementGuid>8e1ffae5-cdf0-4c69-8eff-d5a0b6b5748b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Physical Venue'])[1]/following::button[1]</value>
+      <webElementGuid>990bf046-90d0-47c2-8249-334cca689a06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Location'])[1]/following::button[2]</value>
+      <webElementGuid>55169cf6-8581-414e-a22f-54dc12811a2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Venue'])[1]/preceding::button[1]</value>
+      <webElementGuid>3ab7db51-ab59-4b0d-ad02-f23b39ae09d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>ce6f627c-cfe3-4b87-9610-a2aed1f39e96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Online Event' or . = 'Online Event')]</value>
+      <webElementGuid>ab9c4692-82a2-49fd-b774-afc0f94a812e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

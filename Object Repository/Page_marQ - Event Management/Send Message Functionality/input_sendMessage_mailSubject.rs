@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_sendMessage_mailSubject</name>
+   <tag></tag>
+   <elementGuidId>0ee3382f-5b96-422c-9ec3-bf6fd3169bcf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'subjectInput']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#subjectInput</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>b2027f3d-3f48-4d8f-9c85-53eefd87d980</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>subjectInput</value>
+      <webElementGuid>e0a4f041-48f0-4cb7-a6c0-cbaeb6d467ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>255bcabd-d4a2-41d1-9086-6616ac79d450</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>BulkMessage_input__T4Te3</value>
+      <webElementGuid>96999863-3d68-481f-a1d2-31925fcb8051</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter email subject...</value>
+      <webElementGuid>c3429920-9f31-44e7-a827-4644c5d881a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Email subject</value>
+      <webElementGuid>451dd77d-3035-4a81-a349-ce0c8509a69e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-4cd4384906bb4d59149e0cc96700766a</value>
+      <webElementGuid>a2eb5991-c9c1-4d8a-8c67-be3e14f96cc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'subjectInput']</value>
+      <webElementGuid>d8e5e96b-2ec0-44cd-8467-08c5be430611</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'subjectInput']</value>
+      <webElementGuid>7c259d73-be71-4749-b643-55b1c67374dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'subjectInput' and @type = 'text' and @placeholder = 'Enter email subject...']</value>
+      <webElementGuid>30f94364-66d8-4bee-9b74-49056ea15adc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

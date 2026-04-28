@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that a user cannot log in with incorrect credentials.</description>
+   <name>TC02 - Invalid User Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fb8b8abc-181f-46f2-a610-4ec2aa4d830e</testCaseGuid>
+</TestCaseEntity>

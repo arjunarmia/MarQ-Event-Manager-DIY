@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Seat Booking Event</name>
+   <tag></tag>
+   <elementGuidId>41db6594-65b3-4d9b-990d-de8a20a0de55</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>article.ChooseType_card__aZHZQ.ChooseType_cardSelected__Ozl2I</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@aria-label = 'Select Seat Booking Event']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>article</value>
+      <webElementGuid>74eec2fb-b662-48e9-ba0c-eaaf1bd55ca7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>18a40a7a-8372-42c7-aaa3-9fa309d45b6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>f706685b-f6ba-4988-a63a-78f829f7601a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ChooseType_card__aZHZQ ChooseType_cardSelected__Ozl2I</value>
+      <webElementGuid>6df858a6-31d5-4405-a0c3-119947cb9769</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-pressed</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>376fec02-3ae1-4671-9175-7a0e744e57dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Select Seat Booking Event</value>
+      <webElementGuid>27e6bc9c-1e00-43b5-a66b-ab9f01a1f301</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Seat Booking EventPerfect for theaters, conferences, and venues with assigned seating. Guests select specific seats during booking.Reserved SeatingPaid/Free</value>
+      <webElementGuid>0e1c4017-3aaa-4cb6-a071-48f46120e75e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;ChooseType_chooseTypeWrapper__yMK3m&quot;]/div[@class=&quot;ChooseType_inner__Vfg-H&quot;]/main[@class=&quot;ChooseType_main__2am1g&quot;]/section[@class=&quot;ChooseType_grid__-dLcC&quot;]/article[@class=&quot;ChooseType_card__aZHZQ ChooseType_cardSelected__Ozl2I&quot;]</value>
+      <webElementGuid>6e503cfc-115e-4a6c-9478-c0f8601000f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/main/section/article</value>
+      <webElementGuid>89c500c3-eacd-41f7-b202-e6c3eb8a2eca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose Your Event Category'])[1]/following::article[1]</value>
+      <webElementGuid>4607d1cd-1372-4d58-b4a8-659c05ec1454</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview and Publish'])[1]/following::article[1]</value>
+      <webElementGuid>e7123c07-447e-406a-9aa5-1cdcbbb39e49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article</value>
+      <webElementGuid>f9a69649-bb2e-4cce-b698-0e943b7daa38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//article[(text() = 'Seat Booking EventPerfect for theaters, conferences, and venues with assigned seating. Guests select specific seats during booking.Reserved SeatingPaid/Free' or . = 'Seat Booking EventPerfect for theaters, conferences, and venues with assigned seating. Guests select specific seats during booking.Reserved SeatingPaid/Free')]</value>
+      <webElementGuid>4c130c45-e930-410d-8f3e-3253e84cac66</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

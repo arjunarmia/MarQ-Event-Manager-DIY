@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_RegistrationForm_emailField</name>
+   <tag></tag>
+   <elementGuidId>04d85d8a-8d28-4ed2-9f9e-b6eae21adf3a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[contains(@class, 'formField')][descendant::*[contains(text(), 'email')]])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b7b94f2e-332b-4961-b6e3-4fb81ad5aa37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6345ba59-e5c6-4a9c-bf33-f3e527f55985</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>0effbf92-81c3-484a-9e21-6e9cb125c06d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>FormBuilder_formField__7TmhF </value>
+      <webElementGuid>bfebd8c9-11cd-4243-885f-4acb3eb0fdfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New email field </value>
+      <webElementGuid>6d8dde63-086e-4a84-b374-29e8fc86043e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_cont2__ylJGe&quot;]/div[@class=&quot;FormBuilder_formBuilderWrapper__rgNB9&quot;]/div[@class=&quot;FormBuilder_mainContainer__kaeqX&quot;]/div[@class=&quot;FormBuilder_sectionContainer__TQK2F&quot;]/div[@class=&quot;FormBuilder_centerContent__m36ib&quot;]/div[@class=&quot;FormBuilder_formCanvas__aC9s3&quot;]/div[@class=&quot;FormBuilder_formBody__JmO09&quot;]/div[@class=&quot;FormBuilder_formField__7TmhF&quot;]</value>
+      <webElementGuid>44bb6a4f-1657-4200-919b-4a695edc07e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div[2]/div/div[2]/div[3]</value>
+      <webElementGuid>4caa2ec4-8c82-4c5a-8f63-3edb814207a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New long Text field'])[1]/following::div[1]</value>
+      <webElementGuid>a92da1f7-02f1-4b0b-944d-d41c5493d8dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Registration Form'])[1]/following::div[6]</value>
+      <webElementGuid>23fa6db5-72fd-431e-bf0c-d20139508bae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New phone field'])[1]/preceding::div[2]</value>
+      <webElementGuid>fba2be71-cbab-4bd1-baa9-29f23bd92346</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[2]/div[3]</value>
+      <webElementGuid>2313fe98-3832-4b10-b9a4-e287bb3e803d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'New email field ' or . = 'New email field ')]</value>
+      <webElementGuid>cc4eb219-ba7a-4f34-9e62-f138e83a95b4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

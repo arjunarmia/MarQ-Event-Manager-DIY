@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Continue to Event Setup</name>
+   <tag></tag>
+   <elementGuidId>c82a6c8a-d555-422d-9e01-c5efbb7ee4be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.AiGenerated_primaryButton__exsBG</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@aria-label = 'Continue to Event Setup']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0f3a0731-c17a-40d6-aa3e-196907e274c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fe07b498-1a01-4aba-84e8-a8daa15be07c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>AiGenerated_primaryButton__exsBG</value>
+      <webElementGuid>232e6b25-1c17-4ffc-bd79-d96b29276678</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Continue to Event Setup</value>
+      <webElementGuid>11489700-1e2d-4a61-a7ed-43b797f2b7ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue to Event Setup</value>
+      <webElementGuid>b026d92f-04da-4166-b7d4-d4d26eb6ed3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;AiGenerated_aiGeneratedWrapper__H8GfU&quot;]/div[@class=&quot;AiGenerated_pageGrid__dlG1+&quot;]/main[@class=&quot;AiGenerated_mainCard__bGMq6&quot;]/div[@class=&quot;AiGenerated_actions__vlrrT&quot;]/button[@class=&quot;AiGenerated_primaryButton__exsBG&quot;]</value>
+      <webElementGuid>617764ab-5274-46d6-92a8-a10a0d9227b2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[19]</value>
+      <webElementGuid>fff999ec-163d-4395-9568-9c57e5850c26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/main/div[3]/button</value>
+      <webElementGuid>f5bbab17-7551-4693-82ae-277358284b95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Setup →'])[3]/following::button[1]</value>
+      <webElementGuid>46b51880-6901-485e-a7f6-0392e34610e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms &amp; settings'])[1]/following::button[2]</value>
+      <webElementGuid>a3d1e0fe-24d8-4cbe-b358-f27fa9182aba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regenerate Setup'])[1]/preceding::button[1]</value>
+      <webElementGuid>3e9ca074-9471-4759-bcd9-a60dc8095c69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>1ebbffd9-3252-4827-8c3d-93d7b72d2bb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Continue to Event Setup' or . = 'Continue to Event Setup')]</value>
+      <webElementGuid>890dca4b-be80-4af0-a128-f74264fe3bfb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

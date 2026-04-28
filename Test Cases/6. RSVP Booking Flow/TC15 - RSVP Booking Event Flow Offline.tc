@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC15 - RSVP Booking Event Flow Offline</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6889bcf-64c6-45f8-b538-2926fe242288</testCaseGuid>
+</TestCaseEntity>

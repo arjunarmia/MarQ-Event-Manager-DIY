@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Vendor Category</name>
+   <tag></tag>
+   <elementGuidId>f8e7f877-6480-4123-a6e3-efa6579fbcdd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'vendor-category']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#vendor-category</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>87405647-d2e4-424f-b9c8-343e93e160b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>category</value>
+      <webElementGuid>d29cd26f-f95f-441d-bf69-e26a096652d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>659aaaa7-1ca4-4681-b6a1-8859dde17670</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select</value>
+      <webElementGuid>ee9d01a6-4a8d-4507-8bac-c42ec54efe52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>vendor-category</value>
+      <webElementGuid>8899f78c-c325-454f-821c-f8500e3f0552</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Vendor CategoryRegistrationParkingFood StallsBeverage StallsGamesRidesInfo BoothsChild CareDonation stallsStageRaffles/DrawsFood &amp; BeveragesArts &amp; CraftsClothing &amp; AccessoriesHealth &amp; WellnessHome &amp; GardenTechnology &amp; GadgetsToys &amp; GamesBooks &amp; StationeryBeauty &amp; Personal CareEntertainment &amp; Activities</value>
+      <webElementGuid>ca4e656f-6550-410b-8bd5-d7651150ed3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-df08409f391f9b5f7eb2789659df67e0</value>
+      <webElementGuid>2027e85e-33e9-4962-ab7f-82eb525ac0a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'vendor-category']</value>
+      <webElementGuid>bccdaaba-4309-4b9a-8493-a3d265e70645</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'vendor-category']</value>
+      <webElementGuid>b5c01aa6-56d2-48ae-8997-6d4bf11edcf7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'category' and @id = 'vendor-category' and (text() = 'Select Vendor CategoryRegistrationParkingFood StallsBeverage StallsGamesRidesInfo BoothsChild CareDonation stallsStageRaffles/DrawsFood &amp; BeveragesArts &amp; CraftsClothing &amp; AccessoriesHealth &amp; WellnessHome &amp; GardenTechnology &amp; GadgetsToys &amp; GamesBooks &amp; StationeryBeauty &amp; Personal CareEntertainment &amp; Activities' or . = 'Select Vendor CategoryRegistrationParkingFood StallsBeverage StallsGamesRidesInfo BoothsChild CareDonation stallsStageRaffles/DrawsFood &amp; BeveragesArts &amp; CraftsClothing &amp; AccessoriesHealth &amp; WellnessHome &amp; GardenTechnology &amp; GadgetsToys &amp; GamesBooks &amp; StationeryBeauty &amp; Personal CareEntertainment &amp; Activities')]</value>
+      <webElementGuid>0ba186f3-ec92-4aab-9b39-0174d0a32b85</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

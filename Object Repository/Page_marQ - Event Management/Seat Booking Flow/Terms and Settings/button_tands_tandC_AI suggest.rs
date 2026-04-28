@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_tands_tandC_AI suggest</name>
+   <tag></tag>
+   <elementGuidId>9c714b8f-2972-4267-a734-71013b195615</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button' and @aria-label='Generate terms and conditions using AI' and @title='Generate using AI' and (text()='AI suggest' or .='AI suggest')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>75bf65f6-cc09-47c7-86b7-1695231e55d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f4dde7b1-f9fa-4deb-9c06-1b8d5ef6a578</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>TermsAndSettings_aiChatBtn__2k0HI</value>
+      <webElementGuid>9469d9c0-9ba4-4a47-b031-1aced433c23a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Generate terms and conditions using AI</value>
+      <webElementGuid>b66d6fae-5a10-4b7c-b686-314dd546aec6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Generate using AI</value>
+      <webElementGuid>01beba77-b4bc-474a-ac09-fd8c55f501ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AI suggest</value>
+      <webElementGuid>6f2e4049-1f32-40eb-8dc5-1381333a10d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;TermsAndSettings_termsAndSettingsWrap__kbs7c&quot;]/div[@class=&quot;TermsAndSettings_container__nWMEh&quot;]/main[@class=&quot;TermsAndSettings_mainContent__kRAEp&quot;]/div[@class=&quot;TermsAndSettings_mainInner__y5WbZ&quot;]/section[@class=&quot;TermsAndSettings_section__wJ9bq&quot;]/div[@class=&quot;TermsAndSettings_sectionBody__eGFJ4&quot;]/div[@class=&quot;TermsAndSettings_formGroup__DMf1Z&quot;]/div[@class=&quot;TermsAndSettings_textEditor__CYPag&quot;]/div[@class=&quot;TermsAndSettings_editorToolbar__O5BBV&quot;]/button[@class=&quot;TermsAndSettings_aiChatBtn__2k0HI&quot;]</value>
+      <webElementGuid>229c78d8-232c-449e-80de-cfe954a27155</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[35]</value>
+      <webElementGuid>dc9e792a-8ea1-4ddc-9bdd-2f976862efb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/main/div/section[3]/div[2]/div/div[2]/div/button[6]</value>
+      <webElementGuid>229f1619-960c-41d1-a847-962b93cade92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload PDF'])[1]/following::button[6]</value>
+      <webElementGuid>5d464614-1612-4336-bc9e-3ac5bd4dd09e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::button[7]</value>
+      <webElementGuid>c9d5bef3-e96f-4094-bded-b0a4f9360d44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/preceding::button[1]</value>
+      <webElementGuid>9a75a0d0-c513-4428-ba05-57ecb9fcba6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Terms &amp; Conditions'])[1]/preceding::button[1]</value>
+      <webElementGuid>9a4c10b3-dad0-4641-b4df-2b3b661b74fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button[6]</value>
+      <webElementGuid>f39f821a-38b6-485d-8659-9d6af23e7822</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @title = 'Generate using AI' and (text() = 'AI suggest' or . = 'AI suggest')]</value>
+      <webElementGuid>bd127200-aaf8-48d7-83d0-fb05ce583286</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

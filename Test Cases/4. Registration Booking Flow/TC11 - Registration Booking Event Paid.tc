@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11 - Registration Booking Event Paid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>23be8326-dd11-42a4-810a-2a9e1c799e58</testCaseGuid>
+</TestCaseEntity>

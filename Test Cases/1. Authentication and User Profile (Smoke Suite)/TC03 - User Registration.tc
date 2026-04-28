@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that a new user can sign up successfully.</description>
+   <name>TC03 - User Registration</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a0c01220-acb6-4c53-9921-efd6ebefc35b</testCaseGuid>
+</TestCaseEntity>

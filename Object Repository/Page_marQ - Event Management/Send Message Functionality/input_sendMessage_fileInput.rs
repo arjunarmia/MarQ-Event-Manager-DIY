@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_sendMessage_fileInput</name>
+   <tag></tag>
+   <elementGuidId>6f7f6d35-6056-4b48-884c-153a23f4d8d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'fileInput']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#fileInput</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>637f4699-0d85-4830-b041-02240318c7c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>fileInput</value>
+      <webElementGuid>f5a96eb4-8f0b-4e87-a61a-d878022049e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>file</value>
+      <webElementGuid>2913cfa4-773d-44a7-9136-e3bc10d42c9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-d28f296ed40c6f3eb75774e43f130e12</value>
+      <webElementGuid>692d6ea9-1c47-468c-8df9-190b415cc714</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'fileInput']</value>
+      <webElementGuid>5622a1e2-6c74-453c-978c-5aad12cd0c13</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'fileInput']</value>
+      <webElementGuid>4c25c847-bffa-4acd-b5c1-5b9959d6c5fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'fileInput' and @type = 'file']</value>
+      <webElementGuid>a2d29b1a-67cc-4948-811f-9538cf3c07ef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

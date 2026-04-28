@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add Item</name>
+   <tag></tag>
+   <elementGuidId>1a4e5f2a-2d3f-49e0-ade3-4813ab77f06a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[contains(@class, 'FoodAndBeverages_section')]//button[contains(@class, 'FoodAndBeverages_addBtn') and contains(., 'Add Item')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>059c8c63-ca6b-47c8-b5de-d649d4b9d8e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a116beaa-78c9-427e-a6b9-740a315d03a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>FoodAndBeverages_addBtn__83Ger</value>
+      <webElementGuid>e4be89a9-809b-4d2b-b195-31b66f8c2ce2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Item</value>
+      <webElementGuid>ee4ec489-ab65-44df-8442-edbdfd924ca5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;FoodAndBeverages_foodAndBeveragesWrap__itNXT&quot;]/div[@class=&quot;FoodAndBeverages_contentContainer__hZJkM&quot;]/div[@class=&quot;FoodAndBeverages_mainContent__5upgW&quot;]/div[@class=&quot;FoodAndBeverages_contentInner__qfjii&quot;]/div[@class=&quot;FoodAndBeverages_contentTop__JVMfc&quot;]/div[@class=&quot;FoodAndBeverages_sectionsContainer__bSilu&quot;]/section[@class=&quot;FoodAndBeverages_section__waYqT&quot;]/div[@class=&quot;FoodAndBeverages_sectionHeader__T2ZTs&quot;]/button[@class=&quot;FoodAndBeverages_addBtn__83Ger&quot;]</value>
+      <webElementGuid>38aa15f3-6184-4fb4-9cb5-c67c1d5edfbf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[18]</value>
+      <webElementGuid>bb859724-d973-47de-80b0-0ed6f55e291e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/div/div/div/div[2]/section[2]/div/button</value>
+      <webElementGuid>cf07d609-506a-4139-a8c0-a5f831dbf2f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menu Items'])[1]/following::button[1]</value>
+      <webElementGuid>0475bb80-14b1-4fc3-8b1b-0ecdd1abba6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ST'])[1]/following::button[2]</value>
+      <webElementGuid>5062df57-bc06-45c4-a4d2-69d0085df6de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Availability &amp; Delivery Options'])[1]/preceding::button[1]</value>
+      <webElementGuid>2c61990f-4f20-4cd4-aad2-14c246041379</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pickup Location'])[1]/preceding::button[1]</value>
+      <webElementGuid>92ba7987-4b9a-4b35-98d5-098f360856f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add Item']/parent::*</value>
+      <webElementGuid>57930144-ec5e-49bf-9632-484defdb3a09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/button</value>
+      <webElementGuid>47017241-d429-4a7f-9142-e3e3f037dc85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Add Item' or . = 'Add Item')]</value>
+      <webElementGuid>3a0ddf4d-d4d4-4761-8dca-eab7657e95ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

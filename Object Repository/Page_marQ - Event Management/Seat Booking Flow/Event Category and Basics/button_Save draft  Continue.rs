@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Save draft  Continue</name>
+   <tag></tag>
+   <elementGuidId>c51e6a7d-7792-45b4-8a75-130312a8b994</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.ChooseType_primaryButton__Z-pgR</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@aria-label = 'Save draft and continue']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6d5c0a5d-7c48-49b2-94e1-8f316d09ce87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>955bfa40-54ae-4a6e-aa71-8395ae058d48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ChooseType_primaryButton__Z-pgR</value>
+      <webElementGuid>32119be4-535b-45d7-84bb-120b8c5ed6da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Save draft and continue</value>
+      <webElementGuid>c9ba5a44-8fb9-48eb-a86d-7ee47967e82a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save draft &amp; Continue</value>
+      <webElementGuid>08c98344-a845-4d0d-8761-90b2a3a3d9e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;ChooseType_chooseTypeWrapper__yMK3m&quot;]/div[@class=&quot;ChooseType_inner__Vfg-H&quot;]/main[@class=&quot;ChooseType_main__2am1g&quot;]/footer[@class=&quot;ChooseType_footerBar__CmS4g&quot;]/div[@class=&quot;ChooseType_footerActions__OyOA4&quot;]/button[@class=&quot;ChooseType_primaryButton__Z-pgR&quot;]</value>
+      <webElementGuid>fe6eb1f3-50f0-4b9a-8325-3562758230c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[15]</value>
+      <webElementGuid>f26e171d-04ad-4259-a486-a93a3438b553</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/main/footer/div/button</value>
+      <webElementGuid>c9e7cc0a-bce7-4c53-ab22-fffd8651b9a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go Back'])[2]/following::button[1]</value>
+      <webElementGuid>2461dc86-3f6d-4dfa-8761-b96b4e7027dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ticketing &amp; pricing steps will be skipped for this event type'])[1]/following::button[2]</value>
+      <webElementGuid>d3e423e8-f472-4d1b-9794-43bf9697b680</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Save draft &amp; Continue']/parent::*</value>
+      <webElementGuid>cedcb53c-3934-458a-a02e-5f949341e9ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//footer/div/button</value>
+      <webElementGuid>362d75b4-8028-41a9-bcf8-dfe98a9cb13b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Save draft &amp; Continue' or . = 'Save draft &amp; Continue')]</value>
+      <webElementGuid>bf7f2cbf-2b57-4c26-b7ee-105babe82ac9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

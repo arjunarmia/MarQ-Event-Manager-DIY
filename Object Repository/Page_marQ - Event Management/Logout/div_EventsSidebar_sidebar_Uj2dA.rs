@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_EventsSidebar_sidebar_Uj2dA</name>
+   <tag></tag>
+   <elementGuidId>ff951e53-8e66-4952-8867-4d528acba9bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.EventsSidebar_smPanel__QLEMC</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' EventsSidebar_smPanel__QLEMC ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c3efeb63-b9fe-4b6c-bc98-64e5213c1f33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>EventsSidebar_sidebar__Uj2dA</value>
+      <webElementGuid>3338bea1-0b3a-42f8-a4a2-f79dcf841671</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>EventsSidebar_menuthemelight__+Gpa9 EventsSidebar_smPanel__QLEMC undefined</value>
+      <webElementGuid>3a5e4cfe-6116-4920-95ba-39c19e5289aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>EVENT MANAGERKatalonTestSuccessKatalonTestSuccessLet’s start!Creating or adding new tasks couldn’t be easierCreate EventMAINDashboardEventsOrdersPayoutSupportTokensVendorsSettingsSign Out</value>
+      <webElementGuid>a38d73d8-3352-4701-9672-8688a41d27f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-58c597e310c254158570b5b46a28d86e</value>
+      <webElementGuid>27ee8908-6acb-425c-a0ff-2a67d83b3d7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' EventsSidebar_smPanel__QLEMC ')]</value>
+      <webElementGuid>a0a87085-8bbb-44b2-8757-3aabe5df4447</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' EventsSidebar_smPanel__QLEMC ')]</value>
+      <webElementGuid>bddcf34a-82f3-47a8-a278-3e54fd5bcd88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'EventsSidebar_sidebar__Uj2dA' and (text() = 'EVENT MANAGERKatalonTestSuccessKatalonTestSuccessLet’s start!Creating or adding new tasks couldn’t be easierCreate EventMAINDashboardEventsOrdersPayoutSupportTokensVendorsSettingsSign Out' or . = 'EVENT MANAGERKatalonTestSuccessKatalonTestSuccessLet’s start!Creating or adding new tasks couldn’t be easierCreate EventMAINDashboardEventsOrdersPayoutSupportTokensVendorsSettingsSign Out')]</value>
+      <webElementGuid>48959c94-7aa1-49c7-8a3d-a421faf8d352</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

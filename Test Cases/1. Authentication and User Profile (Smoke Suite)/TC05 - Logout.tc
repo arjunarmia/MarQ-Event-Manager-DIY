@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure the session terminates correctly upon logging out.</description>
+   <name>TC05 - Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>004b194e-83c0-44cb-b6df-f82ad6718663</testCaseGuid>
+</TestCaseEntity>

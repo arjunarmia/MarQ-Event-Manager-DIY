@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08 - Non Seat Booking Event Free</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f5cc8fa-66f1-4c3d-bfbb-2101398d4a99</testCaseGuid>
+</TestCaseEntity>

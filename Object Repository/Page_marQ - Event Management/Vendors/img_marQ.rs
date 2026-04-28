@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_marQ</name>
+   <tag></tag>
+   <elementGuidId>e510d419-d5dc-4a18-89ad-bdcb849731d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' OrderManagement_brandLogo__S-xYL ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.OrderManagement_brandLogo__S-xYL</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>7809100d-f472-4851-b3f1-b83594949092</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/media/marqLogo.1eae9270ac68df237c58d3cac9a48d9c.svg</value>
+      <webElementGuid>03eaa1f3-85c2-415a-9e1a-b8039e604a9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>marQ</value>
+      <webElementGuid>9d31d646-cd6a-495d-bd5c-786d52f45694</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>OrderManagement_brandLogo__S-xYL</value>
+      <webElementGuid>07735157-ee6b-4545-a6a5-d8a8323a9992</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-40f845ea3d05f689a509259679903af0</value>
+      <webElementGuid>938250ca-bb03-49ac-8851-0d8d2685c525</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' OrderManagement_brandLogo__S-xYL ')]</value>
+      <webElementGuid>516f33d2-4e72-4ff3-80f1-f8edaa9b3467</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' OrderManagement_brandLogo__S-xYL ')]</value>
+      <webElementGuid>75951bb0-e869-4f54-9212-22020dc85598</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/static/media/marqLogo.1eae9270ac68df237c58d3cac9a48d9c.svg' and @alt = 'marQ']</value>
+      <webElementGuid>5b1aac04-e9f1-4368-acaa-312f6146c84f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

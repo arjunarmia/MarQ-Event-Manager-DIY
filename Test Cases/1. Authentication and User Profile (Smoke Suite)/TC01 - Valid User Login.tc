@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that a registered user can log in with correct credentials</description>
+   <name>TC01 - Valid User Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4403b78e-fe5d-43fa-b610-438ae77897d8</testCaseGuid>
+</TestCaseEntity>

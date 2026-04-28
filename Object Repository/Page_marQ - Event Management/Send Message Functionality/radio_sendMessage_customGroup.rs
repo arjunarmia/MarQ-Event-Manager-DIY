@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>radio_sendMessage_customGroup</name>
+   <tag></tag>
+   <elementGuidId>cd6416ca-9068-4b2e-8b63-b6621c527291</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@value = 'custom']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[value=&quot;custom&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>1fc76f06-74b5-4be9-86c9-90a916b2e001</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>radio</value>
+      <webElementGuid>8a07985f-d5c2-42fd-8686-efa275859697</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>recipientGroup</value>
+      <webElementGuid>f0205e56-b75b-40c6-8f5e-9f68000ccbb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>custom</value>
+      <webElementGuid>7ceccbcf-b6d4-4ae4-ac03-629860c4edfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-0a587dc298352954bd361dc443c9c979</value>
+      <webElementGuid>78dbe642-ea8d-42dd-90c6-1a649dac2462</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@value = 'custom']</value>
+      <webElementGuid>94a0a012-fa51-4f1c-8ad9-c249920c328e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@value = 'custom']</value>
+      <webElementGuid>9101cdf6-fa2d-4f0d-8add-a28038183f4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'radio' and @name = 'recipientGroup']</value>
+      <webElementGuid>c1761b8b-aede-47a3-beeb-0d9c55c8068b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

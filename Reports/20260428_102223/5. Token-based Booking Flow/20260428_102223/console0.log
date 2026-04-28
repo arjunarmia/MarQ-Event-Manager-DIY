@@ -1,0 +1,140 @@
+2026-04-28 10:22:28.685 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Arjun\.katalon\packages\KS-11.1.1\configuration\org.eclipse.osgi\150\0\.cp\resources\logback\logback-execution.xml
+2026-04-28 10:22:28.690 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Arjun\git\MarQ-Event-Manager-DIY\Include\config\log.properties
+2026-04-28 10:22:29.564 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/5. Token-based Booking Flow
+2026-04-28 10:22:29.661 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Arjun R Nath
+2026-04-28 10:22:29.663 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = MarQ-Event-Manager-DIY
+2026-04-28 10:22:29.664 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Arjun - ARM1221-004
+2026-04-28 10:22:29.665 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-04-28 10:22:29.666 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.18.0.39
+2026-04-28 10:22:29.667 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.1.0
+2026-04-28 10:22:29.846 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-28 10:22:29.847 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/5. Token Booking Flow/TC12 - Token Booking Event Offline
+2026-04-28 10:22:30.391 DEBUG t.TC12 - Token Booking Event Offline     - 1: testData = ["url":"https://marq.iscriptsdemo.com/login", "email":"success.test@yopmail.com", "pass":"Test@123", "prompt":"Create a Token-Based Booking Test Event", ... ]
+2026-04-28 10:22:30.394 DEBUG t.TC12 - Token Booking Event Offline     - 2: openBrowser(url)
+2026-04-28 10:22:30.761 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-28 10:22:30.813 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-28 10:22:33.249 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = bb1a09234904a8d082c123abe49205f8
+2026-04-28 10:22:33.251 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-28 10:22:33.254 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-28 10:22:33.255 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-28 10:22:33.261 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-28 10:22:37.791 DEBUG t.TC12 - Token Booking Event Offline     - 3: maximizeWindow()
+2026-04-28 10:22:37.916 DEBUG t.TC12 - Token Booking Event Offline     - 4: setText(findTestObject("Page_marQ - Event Management/Logout/input_Enter Your Email Address"), email)
+2026-04-28 10:22:40.498 DEBUG t.TC12 - Token Booking Event Offline     - 5: setText(findTestObject("Page_marQ - Event Management/Logout/input_Enter Your Password"), pass)
+2026-04-28 10:22:41.457 DEBUG t.TC12 - Token Booking Event Offline     - 6: click(findTestObject("Page_marQ - Event Management/Logout/input_logIn_loginbtn_LnnFD"))
+2026-04-28 10:22:41.922 DEBUG t.TC12 - Token Booking Event Offline     - 7: waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event"), 20)
+2026-04-28 10:22:55.515 DEBUG t.TC12 - Token Booking Event Offline     - 8: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event"))
+2026-04-28 10:22:56.131 DEBUG t.TC12 - Token Booking Event Offline     - 9: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/textarea_AI_eventPrompt"), prompt)
+2026-04-28 10:22:58.613 DEBUG t.TC12 - Token Booking Event Offline     - 10: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Generate Setup"))
+2026-04-28 10:22:59.294 DEBUG t.TC12 - Token Booking Event Offline     - 11: waitForElementVisible(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup"), 30)
+2026-04-28 10:23:07.005 DEBUG t.TC12 - Token Booking Event Offline     - 12: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup"))
+2026-04-28 10:23:07.441 DEBUG t.TC12 - Token Booking Event Offline     - 13: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup_Draft"))
+2026-04-28 10:23:10.730 DEBUG t.TC12 - Token Booking Event Offline     - 14: click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_EventCategory_tokenBasedEvent"))
+2026-04-28 10:23:14.141 DEBUG t.TC12 - Token Booking Event Offline     - 15: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Save draft  Continue"))
+2026-04-28 10:23:14.584 DEBUG t.TC12 - Token Booking Event Offline     - 16: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/input_Event Basics_eventName"), eventName)
+2026-04-28 10:23:24.171 DEBUG t.TC12 - Token Booking Event Offline     - 17: setText(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_tokenPurchaseAmount"), tokens)
+2026-04-28 10:23:24.979 DEBUG t.TC12 - Token Booking Event Offline     - 18: setText(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_minNumberofTokens"), minTokens)
+2026-04-28 10:23:25.789 DEBUG t.TC12 - Token Booking Event Offline     - 19: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_startup"))
+2026-04-28 10:23:26.209 DEBUG t.TC12 - Token Booking Event Offline     - 20: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_Next"))
+2026-04-28 10:23:26.881 DEBUG t.TC12 - Token Booking Event Offline     - 21: enhancedClick(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndDate"))
+2026-04-28 10:23:34.005 DEBUG t.TC12 - Token Booking Event Offline     - 22: com.utils.CalendarHelper.selectDate(endMY, endDay)
+2026-04-28 10:23:38.824 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.utils.CalendarHelper.selectDate is PASSED
+2026-04-28 10:23:38.825 DEBUG t.TC12 - Token Booking Event Offline     - 23: enhancedClick(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartDate"))
+2026-04-28 10:23:39.412 DEBUG t.TC12 - Token Booking Event Offline     - 24: com.utils.CalendarHelper.selectDate(startMY, startDay)
+2026-04-28 10:23:44.118 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.utils.CalendarHelper.selectDate is PASSED
+2026-04-28 10:23:44.119 DEBUG t.TC12 - Token Booking Event Offline     - 25: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartTime"))
+2026-04-28 10:23:44.724 DEBUG t.TC12 - Token Booking Event Offline     - 26: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":startHr]))
+2026-04-28 10:23:45.373 DEBUG t.TC12 - Token Booking Event Offline     - 27: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":startMin]))
+2026-04-28 10:23:45.762 DEBUG t.TC12 - Token Booking Event Offline     - 28: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndTime"))
+2026-04-28 10:23:46.178 DEBUG t.TC12 - Token Booking Event Offline     - 29: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":endHr]))
+2026-04-28 10:23:46.816 DEBUG t.TC12 - Token Booking Event Offline     - 30: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":endMin]))
+2026-04-28 10:23:47.236 DEBUG t.TC12 - Token Booking Event Offline     - 31: setText(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/input_DateAndLocation_physicalVenue"), venue)
+2026-04-28 10:23:48.142 DEBUG t.TC12 - Token Booking Event Offline     - 32: setText(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/input_DateAndLocation_physicalLocation"), venue)
+2026-04-28 10:23:49.040 DEBUG t.TC12 - Token Booking Event Offline     - 33: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Location Configuration/div_eventLocation_selectionAddress"))
+2026-04-28 10:23:50.758 DEBUG t.TC12 - Token Booking Event Offline     - 34: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_DateLocation_Next"))
+2026-04-28 10:23:51.200 DEBUG t.TC12 - Token Booking Event Offline     - 35: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-facebook"), fbUrl, OPTIONAL)
+2026-04-28 10:23:56.749 DEBUG t.TC12 - Token Booking Event Offline     - 36: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-instagram"), igUrl, OPTIONAL)
+2026-04-28 10:23:57.981 DEBUG t.TC12 - Token Booking Event Offline     - 37: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/button_mediaBranding_Next"))
+2026-04-28 10:23:58.409 DEBUG t.TC12 - Token Booking Event Offline     - 38: click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addVendor"))
+2026-04-28 10:24:08.899 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-04-28 10:24:09.018 DEBUG t.TC12 - Token Booking Event Offline     - 39: click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_vendorSelect"))
+2026-04-28 10:24:09.675 DEBUG t.TC12 - Token Booking Event Offline     - 40: click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addToEvent"))
+2026-04-28 10:24:10.275 DEBUG t.TC12 - Token Booking Event Offline     - 41: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_food_Next"))
+2026-04-28 10:24:10.926 DEBUG t.TC12 - Token Booking Event Offline     - 42: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_policyDetails_AI suggest"))
+2026-04-28 10:24:16.131 DEBUG t.TC12 - Token Booking Event Offline     - 43: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_tandC_AI suggest"))
+2026-04-28 10:24:19.449 DEBUG t.TC12 - Token Booking Event Offline     - 44: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_Next"))
+2026-04-28 10:24:23.197 DEBUG t.TC12 - Token Booking Event Offline     - 45: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_tandn_Next"))
+2026-04-28 10:24:30.767 DEBUG t.TC12 - Token Booking Event Offline     - 46: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/input_addDet_eventDesc"), description)
+2026-04-28 10:24:36.905 DEBUG t.TC12 - Token Booking Event Offline     - 47: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_addDet_Next"))
+2026-04-28 10:24:37.535 DEBUG t.TC12 - Token Booking Event Offline     - 48: waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish"), 15)
+2026-04-28 10:24:42.622 DEBUG t.TC12 - Token Booking Event Offline     - 49: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish"))
+2026-04-28 10:24:43.005 DEBUG t.TC12 - Token Booking Event Offline     - 50: verifyElementPresent(findTestObject("Object Repository/Page_marQ - Event Management/Dashboard/events_Logo"), 15)
+2026-04-28 10:24:56.109 DEBUG t.TC12 - Token Booking Event Offline     - 51: closeBrowser()
+2026-04-28 10:24:56.496 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/5. Token Booking Flow/TC12 - Token Booking Event Offline
+2026-04-28 10:24:56.505 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-28 10:24:56.505 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/5. Token Booking Flow/TC13 - Token Booking Event Online
+2026-04-28 10:24:56.670 DEBUG t.TC13 - Token Booking Event Online      - 1: testData = ["url":"https://marq.iscriptsdemo.com/login", "email":"success.test@yopmail.com", "pass":"Test@123", "prompt":"Create a Token-Based Booking Test Event", ... ]
+2026-04-28 10:24:56.673 DEBUG t.TC13 - Token Booking Event Online      - 2: openBrowser(url)
+2026-04-28 10:24:56.676 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-28 10:24:56.677 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-28 10:24:58.003 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 352bec22249135569f3b75ffae1ef5bb
+2026-04-28 10:24:58.003 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-28 10:24:58.004 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-28 10:24:58.004 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-28 10:24:58.006 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-28 10:25:02.597 DEBUG t.TC13 - Token Booking Event Online      - 3: maximizeWindow()
+2026-04-28 10:25:02.734 DEBUG t.TC13 - Token Booking Event Online      - 4: setText(findTestObject("Page_marQ - Event Management/Logout/input_Enter Your Email Address"), email)
+2026-04-28 10:25:05.387 DEBUG t.TC13 - Token Booking Event Online      - 5: setText(findTestObject("Page_marQ - Event Management/Logout/input_Enter Your Password"), pass)
+2026-04-28 10:25:06.219 DEBUG t.TC13 - Token Booking Event Online      - 6: click(findTestObject("Page_marQ - Event Management/Logout/input_logIn_loginbtn_LnnFD"))
+2026-04-28 10:25:06.670 DEBUG t.TC13 - Token Booking Event Online      - 7: waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event"), 20)
+2026-04-28 10:25:10.528 DEBUG t.TC13 - Token Booking Event Online      - 8: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event"))
+2026-04-28 10:25:20.606 DEBUG t.TC13 - Token Booking Event Online      - 9: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/textarea_AI_eventPrompt"), prompt)
+2026-04-28 10:25:22.972 DEBUG t.TC13 - Token Booking Event Online      - 10: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Generate Setup"))
+2026-04-28 10:25:23.642 DEBUG t.TC13 - Token Booking Event Online      - 11: waitForElementVisible(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup"), 30)
+2026-04-28 10:25:31.417 DEBUG t.TC13 - Token Booking Event Online      - 12: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup"))
+2026-04-28 10:25:31.817 DEBUG t.TC13 - Token Booking Event Online      - 13: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup_Draft"))
+2026-04-28 10:25:35.168 DEBUG t.TC13 - Token Booking Event Online      - 14: click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_EventCategory_tokenBasedEvent"))
+2026-04-28 10:25:38.770 DEBUG t.TC13 - Token Booking Event Online      - 15: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Save draft  Continue"))
+2026-04-28 10:25:39.215 DEBUG t.TC13 - Token Booking Event Online      - 16: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/input_Event Basics_eventName"), eventName)
+2026-04-28 10:25:48.497 DEBUG t.TC13 - Token Booking Event Online      - 17: setText(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_tokenPurchaseAmount"), tokens)
+2026-04-28 10:25:49.264 DEBUG t.TC13 - Token Booking Event Online      - 18: setText(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_minNumberofTokens"), minTokens)
+2026-04-28 10:25:50.078 DEBUG t.TC13 - Token Booking Event Online      - 19: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_startup"))
+2026-04-28 10:25:50.513 DEBUG t.TC13 - Token Booking Event Online      - 20: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_Next"))
+2026-04-28 10:25:51.168 DEBUG t.TC13 - Token Booking Event Online      - 21: enhancedClick(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndDate"))
+2026-04-28 10:25:57.745 DEBUG t.TC13 - Token Booking Event Online      - 22: com.utils.CalendarHelper.selectDate(endMY, endDay)
+2026-04-28 10:26:02.673 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.utils.CalendarHelper.selectDate is PASSED
+2026-04-28 10:26:02.673 DEBUG t.TC13 - Token Booking Event Online      - 23: enhancedClick(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartDate"))
+2026-04-28 10:26:03.269 DEBUG t.TC13 - Token Booking Event Online      - 24: com.utils.CalendarHelper.selectDate(startMY, startDay)
+2026-04-28 10:26:07.983 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.utils.CalendarHelper.selectDate is PASSED
+2026-04-28 10:26:07.983 DEBUG t.TC13 - Token Booking Event Online      - 25: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartTime"))
+2026-04-28 10:26:08.628 DEBUG t.TC13 - Token Booking Event Online      - 26: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":startHr]))
+2026-04-28 10:26:09.295 DEBUG t.TC13 - Token Booking Event Online      - 27: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":startMin]))
+2026-04-28 10:26:09.736 DEBUG t.TC13 - Token Booking Event Online      - 28: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndTime"))
+2026-04-28 10:26:10.165 DEBUG t.TC13 - Token Booking Event Online      - 29: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":endHr]))
+2026-04-28 10:26:10.820 DEBUG t.TC13 - Token Booking Event Online      - 30: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":endMin]))
+2026-04-28 10:26:11.235 DEBUG t.TC13 - Token Booking Event Online      - 31: click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_Online Event"))
+2026-04-28 10:26:11.645 DEBUG t.TC13 - Token Booking Event Online      - 32: selectOptionByLabel(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_selectPlatform"), platform, false)
+2026-04-28 10:26:12.563 DEBUG t.TC13 - Token Booking Event Online      - 33: setText(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/input_DateAndLocation_streamingUrl"), streamUrl)
+2026-04-28 10:26:13.733 DEBUG t.TC13 - Token Booking Event Online      - 34: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_DateLocation_Next"))
+2026-04-28 10:26:14.110 DEBUG t.TC13 - Token Booking Event Online      - 35: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-facebook"), fbUrl, OPTIONAL)
+2026-04-28 10:26:19.944 DEBUG t.TC13 - Token Booking Event Online      - 36: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-instagram"), igUrl, OPTIONAL)
+2026-04-28 10:26:20.959 DEBUG t.TC13 - Token Booking Event Online      - 37: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/button_mediaBranding_Next"))
+2026-04-28 10:26:21.392 DEBUG t.TC13 - Token Booking Event Online      - 38: click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addVendor"))
+2026-04-28 10:26:32.202 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-04-28 10:26:32.300 DEBUG t.TC13 - Token Booking Event Online      - 39: click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_vendorSelect"))
+2026-04-28 10:26:33.097 DEBUG t.TC13 - Token Booking Event Online      - 40: click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addToEvent"))
+2026-04-28 10:26:33.742 DEBUG t.TC13 - Token Booking Event Online      - 41: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_food_Next"))
+2026-04-28 10:26:34.427 DEBUG t.TC13 - Token Booking Event Online      - 42: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_policyDetails_AI suggest"))
+2026-04-28 10:26:39.682 DEBUG t.TC13 - Token Booking Event Online      - 43: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_tandC_AI suggest"))
+2026-04-28 10:26:42.729 DEBUG t.TC13 - Token Booking Event Online      - 44: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_Next"))
+2026-04-28 10:26:46.017 DEBUG t.TC13 - Token Booking Event Online      - 45: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_tandn_Next"))
+2026-04-28 10:26:51.421 DEBUG t.TC13 - Token Booking Event Online      - 46: setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/input_addDet_eventDesc"), description)
+2026-04-28 10:26:57.904 DEBUG t.TC13 - Token Booking Event Online      - 47: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_addDet_Next"))
+2026-04-28 10:26:58.597 DEBUG t.TC13 - Token Booking Event Online      - 48: waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish"), 15)
+2026-04-28 10:27:03.913 DEBUG t.TC13 - Token Booking Event Online      - 49: click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish"))
+2026-04-28 10:27:04.358 DEBUG t.TC13 - Token Booking Event Online      - 50: verifyElementPresent(findTestObject("Object Repository/Page_marQ - Event Management/Dashboard/events_Logo"), 15)
+2026-04-28 10:27:12.932 DEBUG t.TC13 - Token Booking Event Online      - 51: closeBrowser()
+2026-04-28 10:27:13.227 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/5. Token Booking Flow/TC13 - Token Booking Event Online
+2026-04-28 10:27:13.262 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-04-28 10:27:13.262 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/5. Token-based Booking Flow
+2026-04-28 10:27:13.262 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

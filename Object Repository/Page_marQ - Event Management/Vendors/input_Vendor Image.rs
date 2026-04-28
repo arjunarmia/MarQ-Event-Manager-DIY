@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Vendor Image</name>
+   <tag></tag>
+   <elementGuidId>5f2f5f19-9176-4333-a14d-2df8b8edde72</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'vendor-image' and @type = 'file']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'vendor-image' and @type = 'file']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#vendor-image</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>7ac33439-9f66-4598-84b0-b169e032d2b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>vendor-image</value>
+      <webElementGuid>17144a01-2730-427e-aec8-85b1d235f5a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>file</value>
+      <webElementGuid>9af7a0f2-351c-4b65-aaad-ef869f9db475</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>accept</name>
+      <type>Main</type>
+      <value>.jpg,.jpeg,.png,image/jpeg,image/jpg,image/png</value>
+      <webElementGuid>1fda6e24-3892-4447-926d-19e3635a7e62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>VendorCreateModal_fileInput__xLHrI</value>
+      <webElementGuid>2c506b49-2c41-4ec0-8477-738e1d5ec9c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>c5248eb2-8319-47a9-9a65-3e9937f0e1f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2d8f736abc76f927786386505bc68bed</value>
+      <webElementGuid>f944e41e-62bf-46e8-986d-f098af289f6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'vendor-image']</value>
+      <webElementGuid>566e5604-0ea4-418c-95eb-1761a5f158db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'vendor-image']</value>
+      <webElementGuid>d274b5ea-4415-4a23-9a82-2505dcd1ec30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'vendor-image' and @type = 'file']</value>
+      <webElementGuid>148d9e24-9e0d-453d-9eb0-7c2b7caf90b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

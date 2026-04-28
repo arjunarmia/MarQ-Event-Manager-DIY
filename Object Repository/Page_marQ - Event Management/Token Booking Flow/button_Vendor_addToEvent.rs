@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Vendor_addToEvent</name>
+   <tag></tag>
+   <elementGuidId>e93a17d0-867d-4737-8b87-7a33a68028e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.AddVendors_modalActionsRow__mB5Zm > button.AddVendors_btnPrimary__i8MXW</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'button' and (text() = 'Add to event' or . = 'Add to event')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>85a63ef9-c0d2-4b26-8fe5-464c6160ffd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>31e7ae62-bfeb-4aba-8d94-3087475ebac5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>AddVendors_btnPrimary__i8MXW</value>
+      <webElementGuid>93779abf-41c3-46b3-9f36-02e0f38c4369</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Add 1 vendor to event</value>
+      <webElementGuid>dac1fb11-5e9c-4a72-a78e-9d8b06dee367</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add to event</value>
+      <webElementGuid>0bc0c924-5496-4873-813c-8c8b3b924cb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;AddVendors_addVendorsWrap__KIT--&quot;]/div[@class=&quot;AddVendors_container__eLgdD&quot;]/div[@class=&quot;AddVendors_modalOverlay__L-Sb0&quot;]/div[@class=&quot;AddVendors_modalContent__Um9VK AddVendors_modalContentWide__ce7Wr&quot;]/div[@class=&quot;AddVendors_modalBody__QOepM&quot;]/div[@class=&quot;AddVendors_modalActionsRow__mB5Zm&quot;]/button[@class=&quot;AddVendors_btnPrimary__i8MXW&quot;]</value>
+      <webElementGuid>c28c6044-6d49-42ab-be7f-1caca2afdf50</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[16]</value>
+      <webElementGuid>b11e88a4-4edd-4a2a-951d-2c8365f2bcdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/div/div/div[2]/div[2]/button</value>
+      <webElementGuid>bbc054ed-e871-4e6a-8639-5573cb88ef95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Food &amp; Beverages • vendor@yopmail.com'])[1]/following::button[1]</value>
+      <webElementGuid>681d9a53-181e-4c7a-b025-161458c2267a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendor'])[2]/following::button[1]</value>
+      <webElementGuid>4a21e7b9-f31b-43fc-a0ac-ccd789a3ead4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create new vendor'])[1]/preceding::button[1]</value>
+      <webElementGuid>fcbef074-5358-4a23-aa07-cf4bb338bc69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add to event']/parent::*</value>
+      <webElementGuid>e2d1cd5f-ed39-4a16-aaa6-068ef75825d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>7cf381dc-0124-428a-81f2-5a330630d108</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Add to event' or . = 'Add to event')]</value>
+      <webElementGuid>a50a173d-fa99-4bfe-925a-2894aa797d09</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

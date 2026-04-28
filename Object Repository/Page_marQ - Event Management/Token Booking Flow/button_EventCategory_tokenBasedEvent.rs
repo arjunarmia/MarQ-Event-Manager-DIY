@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_EventCategory_tokenBasedEvent</name>
+   <tag></tag>
+   <elementGuidId>f3be9198-c0d5-4e11-9f6f-7d3d3cca1838</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>article.ChooseType_card__aZHZQ.ChooseType_cardSelected__Ozl2I</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@aria-label = 'Select Token-Based Event']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>article</value>
+      <webElementGuid>5928a476-6d06-4f41-ad3b-038043a1e4ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>efc9661f-13b3-4a5d-8efe-ab426234ff9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>693e2ea1-9141-43c8-901f-3ab2fd93af1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ChooseType_card__aZHZQ ChooseType_cardSelected__Ozl2I</value>
+      <webElementGuid>09f47307-91e4-4db3-a5f9-3a57f711290f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-pressed</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>e4bafe05-17a6-4631-82b8-06e8ebf85765</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Select Token-Based Event</value>
+      <webElementGuid>371a6932-80c0-44cb-b167-5c7230e80ef7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Token-Based EventUses digital tokens, coupons, or vouchers for entry. Perfect for exclusive events, member-only gatherings, or promotional campaigns.Token EntryExclusive Access</value>
+      <webElementGuid>4db96693-387a-4783-83fc-a502e158e713</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;ChooseType_chooseTypeWrapper__yMK3m&quot;]/div[@class=&quot;ChooseType_inner__Vfg-H&quot;]/main[@class=&quot;ChooseType_main__2am1g&quot;]/section[@class=&quot;ChooseType_grid__-dLcC&quot;]/article[@class=&quot;ChooseType_card__aZHZQ ChooseType_cardSelected__Ozl2I&quot;]</value>
+      <webElementGuid>c56eb49e-22e0-490a-8508-8a6c03e6f05f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/main/section/article[4]</value>
+      <webElementGuid>54ee42d3-e313-4b5b-9a2b-f14091566f8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approval Option'])[1]/following::article[1]</value>
+      <webElementGuid>55f8dbdb-4b10-4901-a11b-e104d56d654b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Registration'])[1]/following::article[1]</value>
+      <webElementGuid>0d53a379-3c0b-420f-9cae-67e5aee2e0e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article[4]</value>
+      <webElementGuid>157b6fc6-7ad1-4f15-a7d2-67e6384d5d08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//article[(text() = 'Token-Based EventUses digital tokens, coupons, or vouchers for entry. Perfect for exclusive events, member-only gatherings, or promotional campaigns.Token EntryExclusive Access' or . = 'Token-Based EventUses digital tokens, coupons, or vouchers for entry. Perfect for exclusive events, member-only gatherings, or promotional campaigns.Token EntryExclusive Access')]</value>
+      <webElementGuid>74c894f4-e24b-43fb-9df3-3ba90ec49f49</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

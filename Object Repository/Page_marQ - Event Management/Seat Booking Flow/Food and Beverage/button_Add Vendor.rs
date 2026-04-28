@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add Vendor</name>
+   <tag></tag>
+   <elementGuidId>1cc682d8-4ac3-43b8-8d08-2bf6acbb7c67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'button' and (text() = 'Add Vendor' or . = 'Add Vendor')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.FoodAndBeverages_addBtn__83Ger</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0bae7943-3f8e-4dd6-9c47-2fd39b441224</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4d4a1b6b-b474-4abc-a605-4818ecd301f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>FoodAndBeverages_addBtn__83Ger</value>
+      <webElementGuid>164608d7-6cf9-4e60-ba08-854d831e0db5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Vendor</value>
+      <webElementGuid>bebb1eb9-2253-46f2-9251-a5f0d6d45431</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;FoodAndBeverages_foodAndBeveragesWrap__itNXT&quot;]/div[@class=&quot;FoodAndBeverages_contentContainer__hZJkM&quot;]/div[@class=&quot;FoodAndBeverages_mainContent__5upgW&quot;]/div[@class=&quot;FoodAndBeverages_contentInner__qfjii&quot;]/div[@class=&quot;FoodAndBeverages_contentTop__JVMfc&quot;]/div[@class=&quot;FoodAndBeverages_sectionsContainer__bSilu&quot;]/section[@class=&quot;FoodAndBeverages_section__waYqT&quot;]/div[@class=&quot;FoodAndBeverages_sectionHeader__T2ZTs&quot;]/button[@class=&quot;FoodAndBeverages_addBtn__83Ger&quot;]</value>
+      <webElementGuid>d6dbc513-a5d5-443e-b7e3-c4b762f97bfa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[16]</value>
+      <webElementGuid>217d3141-4cb4-4be3-99c2-2047bd9d76c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/div/div/div/div[2]/section/div/button</value>
+      <webElementGuid>ea13b53f-0efc-48e3-a7fd-7584fa7a97dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Food Vendors'])[1]/following::button[1]</value>
+      <webElementGuid>307e888a-614b-44bd-b44f-b2bffe66065c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip'])[1]/following::button[1]</value>
+      <webElementGuid>62481f80-e81a-41a4-9b53-49cae48e0672</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menu Items'])[1]/preceding::button[1]</value>
+      <webElementGuid>f26f519d-bf62-4f2e-83b5-654810db692d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Item'])[1]/preceding::button[1]</value>
+      <webElementGuid>e5038e64-c078-4ed8-b6f8-25abca2b14f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add Vendor']/parent::*</value>
+      <webElementGuid>755a5a9d-0416-49a0-810b-c90bc35557fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/button</value>
+      <webElementGuid>d165375f-a30f-4afd-988f-31ee612eaf8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Add Vendor' or . = 'Add Vendor')]</value>
+      <webElementGuid>182d24ae-22f7-43d0-85d1-078cadbf6199</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

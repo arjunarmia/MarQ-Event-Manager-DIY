@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Raffle Configuration_toggle</name>
+   <tag></tag>
+   <elementGuidId>3418c4c1-c453-428c-a764-00f53eca6d4b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class, 'RaffleConfiguration_toggleHeader')]//div[contains(@class, 'RaffleConfiguration_toggleSwitch')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.RaffleConfiguration_toggleSlider__ilniJ</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5427645e-0a0e-490d-9aa2-dc7218c17f50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>RaffleConfiguration_toggleSlider__ilniJ</value>
+      <webElementGuid>6ed7511f-6aa6-4e21-995b-f87872f2aef8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;RaffleConfiguration_raffleConfigurationWrap__TPL0u&quot;]/div[@class=&quot;RaffleConfiguration_container__MKqAC&quot;]/main[@class=&quot;RaffleConfiguration_mainContent__zHS6U&quot;]/div[@class=&quot;RaffleConfiguration_mainInner__5Omse&quot;]/div[@class=&quot;RaffleConfiguration_contentWrapper__nZ5pl&quot;]/div[@class=&quot;RaffleConfiguration_headerSection__uUSwv&quot;]/div[@class=&quot;RaffleConfiguration_toggleSwitch__SpPcv  RaffleConfiguration_toggleMobileOnly__3p-Ts&quot;]/div[@class=&quot;RaffleConfiguration_toggleSlider__ilniJ&quot;]</value>
+      <webElementGuid>1e33afc8-8316-4926-8f8a-c76d8dde6ae3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/main/div/div/div/div[2]/div</value>
+      <webElementGuid>06fc6012-cee0-4f93-ad90-eed14f086516</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div/div[2]/div</value>
+      <webElementGuid>6e16750f-23db-47c2-9678-e3d917790b0d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

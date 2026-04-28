@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_tands_policyDetails_AI suggest</name>
+   <tag></tag>
+   <elementGuidId>b53cad48-121a-4d8a-a767-ca42246603e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button' and @aria-label='Generate refund policy using AI' and @title='Generate using AI' and (text()='AI suggest' or .='AI suggest')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.TermsAndNotes_aiChatBtn__uRpOO</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b470c3d3-ae7f-4e8e-a463-6e7c6d7b206c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>296833ff-5be8-4375-be38-3ddfa8d1ec91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>TermsAndNotes_aiChatBtn__uRpOO</value>
+      <webElementGuid>a2f5258a-3f39-4117-8cd6-b1261b51bb92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Generate general instructions using AI</value>
+      <webElementGuid>06ce785e-7a70-4772-9337-f1ea35c06249</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Generate using AI</value>
+      <webElementGuid>b41fd63b-a512-4338-8f46-690b5f4a88a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AI suggest</value>
+      <webElementGuid>d2b4471a-0885-4f52-bb54-a22d660f76aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;TermsAndNotes_termsAndNotesWrap__Uoj59&quot;]/div[@class=&quot;TermsAndNotes_container__5siCT&quot;]/main[@class=&quot;TermsAndNotes_mainContent__cZjlt&quot;]/div[@class=&quot;TermsAndNotes_mainInner__41VIJ&quot;]/div[@class=&quot;TermsAndNotes_formContainer__QHXWb&quot;]/section[@class=&quot;TermsAndNotes_section__0z1gW&quot;]/div[@class=&quot;TermsAndNotes_textEditor__ksV4C&quot;]/div[@class=&quot;TermsAndNotes_editorToolbar__A+zwy&quot;]/button[@class=&quot;TermsAndNotes_aiChatBtn__uRpOO&quot;]</value>
+      <webElementGuid>413fef56-9724-445f-baa6-d3137c4937f3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[20]</value>
+      <webElementGuid>9d069d31-7c77-4996-bdb4-afe979c51de0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/main/div[2]/div[2]/section/div[2]/div/button[6]</value>
+      <webElementGuid>a61340fb-970b-49c1-8eb2-c1b3121594ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='General Instructions'])[1]/following::button[6]</value>
+      <webElementGuid>079f0600-5418-40e8-a1e0-bf05135f1dbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms &amp; Notes (Optional)'])[1]/following::button[6]</value>
+      <webElementGuid>e00c0f16-433e-4487-b830-64b5b27fddc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Safety &amp; Health Protocols'])[1]/preceding::button[1]</value>
+      <webElementGuid>2176b1b7-189e-468e-af96-fd08a57f5b79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AI suggest'])[2]/preceding::button[6]</value>
+      <webElementGuid>9b7bbdda-2ff6-48f0-b1b9-dfe2c6485643</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='AI suggest']/parent::*</value>
+      <webElementGuid>c6061be0-2ede-469f-8926-e3a0a1148786</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[6]</value>
+      <webElementGuid>57a8ac49-9a40-4192-909b-56bd52587dd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @title = 'Generate using AI' and (text() = 'AI suggest' or . = 'AI suggest')]</value>
+      <webElementGuid>986fd3eb-d992-4174-82c6-eeba65a25fa8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

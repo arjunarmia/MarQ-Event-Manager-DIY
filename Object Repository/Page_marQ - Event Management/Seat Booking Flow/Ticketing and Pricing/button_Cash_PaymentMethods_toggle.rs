@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cash_PaymentMethods_toggle</name>
+   <tag></tag>
+   <elementGuidId>6a15e10c-0241-4420-86f3-e9877369e228</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.FoodAndBeverages_toggle__GTFoL</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(text(), 'Cash (Offline)')]/ancestor::div[contains(@class, 'paymentCard')]//button[@type='button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ec0d958b-2dcc-47ba-a6f3-a425a06db116</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ea1a1f81-c732-4903-a5e7-1f8d5eeeb721</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>FoodAndBeverages_toggle__GTFoL </value>
+      <webElementGuid>a11ceadd-461c-4d80-928e-e00d05e8a503</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Toggle pre-order availability</value>
+      <webElementGuid>73c96e5c-062e-4c4c-b9c4-746ec07b319d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;FoodAndBeverages_foodAndBeveragesWrap__itNXT&quot;]/div[@class=&quot;FoodAndBeverages_contentContainer__hZJkM&quot;]/div[@class=&quot;FoodAndBeverages_mainContent__5upgW&quot;]/div[@class=&quot;FoodAndBeverages_contentInner__qfjii&quot;]/div[@class=&quot;FoodAndBeverages_contentTop__JVMfc&quot;]/div[@class=&quot;FoodAndBeverages_sectionsContainer__bSilu&quot;]/div[@class=&quot;FoodAndBeverages_bottomSection__KmGFA&quot;]/div[@class=&quot;FoodAndBeverages_availabilitySection__TAz+N&quot;]/div[@class=&quot;FoodAndBeverages_availabilityForm__G4HYj&quot;]/div[@class=&quot;FoodAndBeverages_toggleCard__1JnjC&quot;]/div[@class=&quot;FoodAndBeverages_toggleHeader__010e+&quot;]/button[@class=&quot;FoodAndBeverages_toggle__GTFoL&quot;]</value>
+      <webElementGuid>aeedbd50-c582-418e-a6a1-9e9ce5d20b7e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[19]</value>
+      <webElementGuid>95cbdd36-97b8-473f-b5a8-3d8c23b26429</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div[2]/div/button</value>
+      <webElementGuid>719151bf-977a-4cd7-9de4-67d1cac5423c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pre-Order Available'])[1]/following::button[1]</value>
+      <webElementGuid>d7a32b88-89f4-46fc-a660-5e850bfe0fa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pickup Location'])[1]/following::button[1]</value>
+      <webElementGuid>82ba42e2-732a-413a-a90a-3542e4a324c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buy Onsite'])[1]/preceding::button[1]</value>
+      <webElementGuid>b22d7cb1-d14d-404c-a747-eb034a6639fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Summary Preview'])[1]/preceding::button[2]</value>
+      <webElementGuid>3e6ba417-fbc8-4c85-acb0-3c8e03da3dfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/div/button</value>
+      <webElementGuid>e268aa6a-66c4-4c7c-b774-7fe292f04355</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>c186fc93-d57a-4518-868d-d4f09ff22626</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

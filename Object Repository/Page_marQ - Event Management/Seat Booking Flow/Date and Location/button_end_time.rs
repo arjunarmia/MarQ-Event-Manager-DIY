@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_end_time</name>
+   <tag></tag>
+   <elementGuidId>0e55c549-b644-4dbf-b8dc-795602a9d2dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' DateAndTime_columnTight__MyNcb ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' DateAndTime_dropdownButtonTime__FLjXB ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>797f6515-ba37-4b74-897d-416f4d505006</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1775727397074</value>
+      <webElementGuid>8bf31fda-04c0-4dc5-889e-60534693025f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

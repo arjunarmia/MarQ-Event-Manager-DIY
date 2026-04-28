@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Vendor_vendorSelect</name>
+   <tag></tag>
+   <elementGuidId>aab7a38b-85af-4eca-870d-6bc9b6c3b2ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.AddVendors_modalVendorRow__-R2uq</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'button' and (text() = 'SVendorFood &amp; Beverages • vendor@yopmail.com' or . = 'SVendorFood &amp; Beverages • vendor@yopmail.com')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>78ae344d-f4ae-47bd-a70c-959ee2c9a481</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>07c38062-5b4f-4ea3-b03d-370abba5b5d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>AddVendors_modalVendorRow__-R2uq </value>
+      <webElementGuid>d3b80800-758c-4362-bbd9-a4a5a3ce5943</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-pressed</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>1dd41544-b3f3-443e-a910-2c77b38a5b23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Select Vendor</value>
+      <webElementGuid>fb3617e6-aef1-46f9-b622-dc41ce3ce199</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SVendorFood &amp; Beverages • vendor@yopmail.com</value>
+      <webElementGuid>bef64781-92d2-4c5e-a01c-5646b0e35932</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;AddVendors_addVendorsWrap__KIT--&quot;]/div[@class=&quot;AddVendors_container__eLgdD&quot;]/div[@class=&quot;AddVendors_modalOverlay__L-Sb0&quot;]/div[@class=&quot;AddVendors_modalContent__Um9VK AddVendors_modalContentWide__ce7Wr&quot;]/div[@class=&quot;AddVendors_modalBody__QOepM&quot;]/div[@class=&quot;AddVendors_modalVendorList__7tSsz&quot;]/button[@class=&quot;AddVendors_modalVendorRow__-R2uq&quot;]</value>
+      <webElementGuid>695290da-ba87-4c30-b579-e3511efbc9f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[15]</value>
+      <webElementGuid>f0bd0fa1-d268-4491-b814-4631833197ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/div/div/div[2]/div/button</value>
+      <webElementGuid>34fc3174-7184-476f-8604-d8da70688c10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Vendor'])[1]/following::button[2]</value>
+      <webElementGuid>9366e64e-086a-4628-90d7-ef6a9ee55ce1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button</value>
+      <webElementGuid>325b5b3a-37cf-41aa-9e4c-90a37dfff333</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'SVendorFood &amp; Beverages • vendor@yopmail.com' or . = 'SVendorFood &amp; Beverages • vendor@yopmail.com')]</value>
+      <webElementGuid>0ddf9072-17e0-4b0c-8083-bb496bb5fbaa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

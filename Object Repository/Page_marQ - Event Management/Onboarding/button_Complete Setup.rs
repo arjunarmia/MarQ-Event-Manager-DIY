@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Complete Setup</name>
+   <tag></tag>
+   <elementGuidId>da7fd233-2922-49af-9199-9333188efdab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.onboarding_nextBtn__68o1f</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b53f7ba0-47ae-4189-88ff-373b8cf319c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>879d8d23-4d46-4fab-9706-5ab6bed81003</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>onboarding_nextBtn__68o1f</value>
+      <webElementGuid>fe1ef36e-f1f6-474f-963e-ad0fb1ad9039</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Complete onboarding</value>
+      <webElementGuid>64ef3665-a801-4b6d-a519-7b1e0b6140cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Complete Setup</value>
+      <webElementGuid>e7676b72-965d-4b5e-aa93-1a6be54bf550</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[1]/div[@class=&quot;onboarding_indexdiv__3S6Pc&quot;]/div[@class=&quot;onboarding_twoColumn__+gxc9&quot;]/section[@class=&quot;onboarding_right__-rkPT&quot;]/div[@class=&quot;onboarding_rightInner__0pQNi&quot;]/div[@class=&quot;onboarding_contentWrap__yQA2l&quot;]/div[@class=&quot;onboarding_contentWrapTwo__Xrz4v onboarding_contentWrapFive__eycU9 onboarding_contentWrapStep3__S1Uik&quot;]/div[@class=&quot;onboarding_formFooter__enbhb&quot;]/button[@class=&quot;onboarding_nextBtn__68o1f&quot;]</value>
+      <webElementGuid>fc2e5080-9d3e-4164-9b2d-90ab4d36e173</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>cff165c9-c6fd-4ed9-8841-14379b807d4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/section[2]/div/div[2]/div/div[2]/button[2]</value>
+      <webElementGuid>4f6f627a-c8de-4593-a209-b5ab8b4312bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go Back'])[1]/following::button[1]</value>
+      <webElementGuid>72b4f6cd-7bbf-42ee-834e-4ecef4ba8772</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Details'])[1]/following::button[2]</value>
+      <webElementGuid>0c450a71-a77b-4523-97e5-43d454258de1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Complete Setup']/parent::*</value>
+      <webElementGuid>cd0087bb-b2d1-466d-b407-1f28408988f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>c8b25ec9-2c8a-45d3-93cb-93a1ca2916eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Complete Setup' or . = 'Complete Setup')]</value>
+      <webElementGuid>a8814f3c-65e3-4e4f-adbd-a08522f2b430</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

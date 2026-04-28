@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_raffleConfig_RaffleRules_AI suggest</name>
+   <tag></tag>
+   <elementGuidId>d50629b6-a26a-4dc1-887f-71660f8e1a26</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'button' and @title = 'Generate using AI' and (text() = 'AI suggest' or . = 'AI suggest')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.RaffleConfiguration_textEditorToolbar__LAQ3T > button.RaffleConfiguration_aiAssistBtn__aIGm5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9f069b82-7903-41f8-aab3-c3abae2e109c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1f9f3edf-bab7-44d9-b487-f2e9f44da517</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>RaffleConfiguration_aiAssistBtn__aIGm5</value>
+      <webElementGuid>d0b410d6-a8a3-4073-9a40-6ed0f93247e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Generate raffle rules using AI</value>
+      <webElementGuid>79b5db00-d693-4111-8c19-77813d31bfee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Generate using AI</value>
+      <webElementGuid>0ce92436-c89c-4186-bd10-24042772d451</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>a5d7d814-3a1a-4cbe-a301-50c0b7e79467</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AI suggest</value>
+      <webElementGuid>8bdee080-9eec-4216-a254-84275354a0dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;RaffleConfiguration_raffleConfigurationWrap__TPL0u&quot;]/div[@class=&quot;RaffleConfiguration_container__MKqAC&quot;]/main[@class=&quot;RaffleConfiguration_mainContent__zHS6U&quot;]/div[@class=&quot;RaffleConfiguration_mainInner__5Omse&quot;]/div[@class=&quot;RaffleConfiguration_contentWrapper__nZ5pl&quot;]/div[@class=&quot;RaffleConfiguration_contentWrapper__nZ5pl&quot;]/div[@class=&quot;RaffleConfiguration_formSection__5775o&quot;]/div[@class=&quot;RaffleConfiguration_formGroup__4MNpL&quot;]/div[@class=&quot;RaffleConfiguration_textEditorWrapper__LffFc&quot;]/div[@class=&quot;RaffleConfiguration_textEditorToolbar__LAQ3T&quot;]/button[@class=&quot;RaffleConfiguration_aiAssistBtn__aIGm5&quot;]</value>
+      <webElementGuid>51f1dfac-8968-4fc0-acec-fa3ab8872104</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[63]</value>
+      <webElementGuid>16a46a11-3de9-4c53-a63f-41bfb5ac6f2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/main/div/div/div[3]/div[3]/div/div/div/button[5]</value>
+      <webElementGuid>13527268-bfb2-44af-9a47-2be8e5900de8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::button[5]</value>
+      <webElementGuid>41aa11f7-bd9f-41bf-ab25-99fa7b9653ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rules Documents (up to 5, PDF/DOC)'])[1]/preceding::button[1]</value>
+      <webElementGuid>df4471ed-0dc5-49b8-ba8e-0378cdaf304a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose PDF/DOC (0/5)'])[1]/preceding::button[1]</value>
+      <webElementGuid>3b52d1cb-2e7f-4498-8b40-b16b999f61c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='AI suggest']/parent::*</value>
+      <webElementGuid>38e19d0e-697e-4d1c-abd0-714cbb8e0430</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/button[5]</value>
+      <webElementGuid>94fc7d99-874b-4def-b9d5-960281f1b951</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @title = 'Generate using AI' and (text() = 'AI suggest' or . = 'AI suggest')]</value>
+      <webElementGuid>a7c54f6b-97b7-4305-9541-fc853da5abf4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

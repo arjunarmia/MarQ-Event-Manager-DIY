@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC18 - Contact Form Submission</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cc0a09d9-cdb8-4247-badd-71c10fa7afde</testCaseGuid>
+</TestCaseEntity>

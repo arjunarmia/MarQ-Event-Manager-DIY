@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_EventCategory_registrationEvent</name>
+   <tag></tag>
+   <elementGuidId>14e2576d-c03b-42df-9f5a-90280c2e6142</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>article.ChooseType_card__aZHZQ.ChooseType_cardSelected__Ozl2I</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@aria-label = 'Select Registration-Based Event']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>article</value>
+      <webElementGuid>53bf4e8d-eb7b-48e4-a221-04127940866b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ef9703ee-a4d2-47bc-a41a-0a1a48b9a3c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>b88ccfd2-f85d-4fc0-9a66-b3db38cc3d52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ChooseType_card__aZHZQ ChooseType_cardSelected__Ozl2I</value>
+      <webElementGuid>db6fa997-117e-4ed8-9f93-67c04765e539</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-pressed</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>05540ac6-2609-4322-b6a2-de5a10a8aae0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Select Registration-Based Event</value>
+      <webElementGuid>fa16f2d7-77b7-4aaf-9a67-823b55a8960e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Registration-Based EventIdeal for workshops, seminars, and meetups. Simple registration with attendee tracking and optional approval process.RegistrationApproval Option</value>
+      <webElementGuid>8fab1aba-57a1-4e32-8361-52afc4c38556</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_cont2__ylJGe&quot;]/div[@class=&quot;ChooseType_chooseTypeWrapper__yMK3m&quot;]/div[@class=&quot;ChooseType_inner__Vfg-H&quot;]/main[@class=&quot;ChooseType_main__2am1g&quot;]/section[@class=&quot;ChooseType_grid__-dLcC&quot;]/article[@class=&quot;ChooseType_card__aZHZQ ChooseType_cardSelected__Ozl2I&quot;]</value>
+      <webElementGuid>6f53c4e2-c12a-4636-bef1-1c599323e0b5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/main/section/article[3]</value>
+      <webElementGuid>00e93b4b-1fe1-44c2-b641-9fb625fd1d90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paid/Free'])[2]/following::article[1]</value>
+      <webElementGuid>fb1913ee-c4ee-401c-a646-05f6d58e5206</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='General Admission'])[1]/following::article[1]</value>
+      <webElementGuid>6566ff5a-5c3a-4a23-a164-0813e1f75012</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article[3]</value>
+      <webElementGuid>261f2845-9bd3-49c2-9a6b-0d7911f1c029</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//article[(text() = 'Registration-Based EventIdeal for workshops, seminars, and meetups. Simple registration with attendee tracking and optional approval process.RegistrationApproval Option' or . = 'Registration-Based EventIdeal for workshops, seminars, and meetups. Simple registration with attendee tracking and optional approval process.RegistrationApproval Option')]</value>
+      <webElementGuid>44b43d75-c263-4e83-ab35-66bb1a4bf9ec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

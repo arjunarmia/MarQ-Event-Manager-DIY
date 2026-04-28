@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_welcome_message</name>
+   <tag></tag>
+   <elementGuidId>8c7c0c4a-3362-4378-8766-01e774a0d5a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div/div/div/div/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>6eb50799-270a-4e02-9f58-801ec19c8b11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Here's what's happening with your events today.</value>
+      <webElementGuid>837302b4-5a27-4313-8ed8-9ce4ee35f6a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;ManagerDashboard_managerDashboardWrap__ye8Tn&quot;]/div[@class=&quot;ManagerDashboard_container__7WSqw&quot;]/div[@class=&quot;ManagerDashboard_mainContent__kMf7D&quot;]/div[@class=&quot;ManagerDashboard_header__kCLqC&quot;]/div[@class=&quot;ManagerDashboard_headerLeft__xZCQw&quot;]/div[@class=&quot;ManagerDashboard_welcomeText__xWmKT&quot;]/p[1]</value>
+      <webElementGuid>7241d4c3-a1c6-43fb-a2fd-c5bf3333ea7e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/div/div/div/div[2]/p</value>
+      <webElementGuid>0f390f17-e5bf-4fc4-873e-071fc411e7ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Out'])[1]/following::p[1]</value>
+      <webElementGuid>9bad14d4-8d12-429e-86d8-e70b20ab846e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Performance'])[1]/preceding::p[12]</value>
+      <webElementGuid>d3c87dde-f4c4-43d2-8371-590f403ea464</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quick Actions'])[1]/preceding::p[12]</value>
+      <webElementGuid>c18c6a37-5504-4fdc-a4aa-674d799193e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>b1dfdfe2-9582-41e7-9d39-696300a5b504</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = concat(&quot;Here&quot; , &quot;'&quot; , &quot;s what&quot; , &quot;'&quot; , &quot;s happening with your events today.&quot;) or . = concat(&quot;Here&quot; , &quot;'&quot; , &quot;s what&quot; , &quot;'&quot; , &quot;s happening with your events today.&quot;))]</value>
+      <webElementGuid>d318362d-1b5d-4192-97fd-a89d5c7f411f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

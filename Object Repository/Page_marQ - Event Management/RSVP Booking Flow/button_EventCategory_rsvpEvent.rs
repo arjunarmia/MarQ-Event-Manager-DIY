@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_EventCategory_rsvpEvent</name>
+   <tag></tag>
+   <elementGuidId>da0020d9-e146-43ad-8f03-2485c703f42e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>section.ChooseType_infoCard__ygjuL.ChooseType_infoCardSelected__QQgWL</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@aria-label = 'Informational Event (RSVP Only)']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>section</value>
+      <webElementGuid>c677a7b6-d948-48f9-b84a-071c7fa7a254</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ChooseType_infoCard__ygjuL ChooseType_infoCardSelected__QQgWL</value>
+      <webElementGuid>81a0e7b0-6a99-467b-969c-6beac841e595</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Informational Event (RSVP Only)</value>
+      <webElementGuid>ab9be18f-c857-4833-be14-bb6f32507584</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ed095e0f-e6eb-4a78-ad4d-051558acc749</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>fc675454-1522-46fe-8e16-3694ef3dbf0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-pressed</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>4b94705b-b408-4508-a040-0945a0768a3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Informational Event (RSVP Only)Perfect for weddings, conventions, or private gatherings. Track attendees without ticketing or pricing. Optional seat/table assignments included.No TicketingRSVP TrackingTable AssignmentTicketing &amp; pricing steps will be skipped for this event type</value>
+      <webElementGuid>17c5ca7d-2ba8-4d2d-9297-a25335f78319</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;CancelTicket_bodythemeNew__paE0E&quot;]/div[@class=&quot;CancelTicket_dashboard__5u4hM&quot;]/div[@class=&quot;ChooseType_chooseTypeWrapper__yMK3m&quot;]/div[@class=&quot;ChooseType_inner__Vfg-H&quot;]/main[@class=&quot;ChooseType_main__2am1g&quot;]/section[@class=&quot;ChooseType_infoCard__ygjuL ChooseType_infoCardSelected__QQgWL&quot;]</value>
+      <webElementGuid>67ea0673-61ff-4cac-ad2c-30f014a94ff5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/main/section[2]</value>
+      <webElementGuid>f0e6dd4a-093a-4ed5-97b8-45296b21804a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exclusive Access'])[1]/following::section[1]</value>
+      <webElementGuid>abff457e-67eb-4b42-b493-87747b2888f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Token Entry'])[1]/following::section[1]</value>
+      <webElementGuid>2e8b19f0-1081-4eda-ad9a-a88825b017bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]</value>
+      <webElementGuid>cb645110-d06f-4c8a-a7d4-0b15129495ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//section[(text() = 'Informational Event (RSVP Only)Perfect for weddings, conventions, or private gatherings. Track attendees without ticketing or pricing. Optional seat/table assignments included.No TicketingRSVP TrackingTable AssignmentTicketing &amp; pricing steps will be skipped for this event type' or . = 'Informational Event (RSVP Only)Perfect for weddings, conventions, or private gatherings. Track attendees without ticketing or pricing. Optional seat/table assignments included.No TicketingRSVP TrackingTable AssignmentTicketing &amp; pricing steps will be skipped for this event type')]</value>
+      <webElementGuid>4fdd1f56-1b10-490e-afa2-1ffc9c00564c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

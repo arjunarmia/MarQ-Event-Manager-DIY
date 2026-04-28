@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC16 - RSVP Booking Event Flow Online</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>73d9982b-2da9-4d11-9f01-12431d1e4eb8</testCaseGuid>
+</TestCaseEntity>

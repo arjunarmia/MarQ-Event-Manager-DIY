@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>first_email_row</name>
+   <tag></tag>
+   <elementGuidId>497d5ba3-b939-4220-8468-c4528a5321b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[contains(@class, 'ng-scope')][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>69ba3717-08d4-4630-afe2-6600af9808ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onkeyup</name>
+      <type>Main</type>
+      <value>if (event.keyCode == 13) { showTheMessage('katalontest-1775654055-012100118420012'); }</value>
+      <webElementGuid>3f532c9f-21de-4c04-a426-19958890404f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>showTheMessage('katalontest-1775654055-012100118420012');</value>
+      <webElementGuid>35d413a8-b434-435c-af67-26455767a488</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>386eb10c-51a0-48d8-8923-96f4e74bd049</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    Welcome To marQ !! Verify Your Email
+                </value>
+      <webElementGuid>35fcdf8e-099e-4c37-861d-5e83e8e1b113</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;row_katalontest-1775654055-012100118420012&quot;)/td[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>e8a6fa7e-d7db-4ed8-a575-99503f64b996</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//td[@onclick=&quot;showTheMessage('katalontest-1775654055-012100118420012');&quot;])[2]</value>
+      <webElementGuid>a7307c85-efe7-4840-90e6-277d1c17f8a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='row_katalontest-1775654055-012100118420012']/td[3]</value>
+      <webElementGuid>c7a17f28-415e-4df5-a69b-af87171f77d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='marQ'])[1]/following::td[1]</value>
+      <webElementGuid>59cfb41d-b8e7-4352-9c1a-acbf67a12a46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Received'])[2]/following::td[3]</value>
+      <webElementGuid>3641ef2c-e28e-4679-968e-c1cb841f2592</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Free'])[1]/preceding::td[2]</value>
+      <webElementGuid>4266857c-6291-466d-b644-bd3ad1be98fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Verified!'])[1]/preceding::td[2]</value>
+      <webElementGuid>c96f1e3d-18c5-426b-8cdf-84a65b0ad2da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Welcome To marQ !! Verify Your Email']/parent::*</value>
+      <webElementGuid>e84b653e-f116-4a26-8a4e-d953a42e7f60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>7cb2e23b-3622-415b-96d0-0b18a13684bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '
+                    Welcome To marQ !! Verify Your Email
+                ' or . = '
+                    Welcome To marQ !! Verify Your Email
+                ')]</value>
+      <webElementGuid>8539fcca-402f-4b92-ad6c-c33f7ac823d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

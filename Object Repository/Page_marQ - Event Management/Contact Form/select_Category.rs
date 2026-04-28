@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Category</name>
+   <tag></tag>
+   <elementGuidId>69c532aa-6b42-4177-b800-821275e17b2b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'category']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#category</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>4540f03e-6f34-480d-a844-76da904fea1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>category</value>
+      <webElementGuid>3aec97f8-f460-46ff-8918-7c57053eef4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>category</value>
+      <webElementGuid>9a5492da-d09a-4d74-af4b-238597519f52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Contact_select__QQyLi </value>
+      <webElementGuid>7adbbe0e-4c7a-4310-aecc-86d702e75a60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select a categoryTicketing &amp; PricingPayments &amp; PayoutsEvent SchedulingMarketing &amp; PromotionOther</value>
+      <webElementGuid>37393ed1-f60b-4c8b-ace8-446bad8e8410</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-610cb188117ca2ef520fb2343092b285</value>
+      <webElementGuid>cd845113-2f9f-468d-bdfb-732f71035201</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'category']</value>
+      <webElementGuid>13f323ce-d858-4296-9195-6b2a333740bc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'category']</value>
+      <webElementGuid>77d4f790-105d-41ba-880c-8910e0579ac3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'category' and @name = 'category' and (text() = 'Select a categoryTicketing &amp; PricingPayments &amp; PayoutsEvent SchedulingMarketing &amp; PromotionOther' or . = 'Select a categoryTicketing &amp; PricingPayments &amp; PayoutsEvent SchedulingMarketing &amp; PromotionOther')]</value>
+      <webElementGuid>0cd2e367-96bf-4627-89cd-9b726f660b35</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
