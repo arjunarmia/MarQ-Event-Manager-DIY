@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="5. Token-based Booking Flow" time="283.597" tests="2" failures="0" errors="0">
+   <testsuite name="5. Token-based Booking Flow" tests="2" failures="0" errors="0" time="283.597" skipped="0" timestamp="2026-04-28T04:52:29.630Z" hostname="Arjun - ARM1221-004" id="Test Suites/5. Token-based Booking Flow">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Arjun\\git\\MarQ-Event-Manager-DIY\\Reports\\20260428_102223\\5. Token-based Booking Flow\\20260428_102223"/>
+         <property name="logFiles" value="C:\\Users\\Arjun\\git\\MarQ-Event-Manager-DIY\\Reports\\20260428_102223\\5. Token-based Booking Flow\\20260428_102223\\console0.log, C:\\Users\\Arjun\\git\\MarQ-Event-Manager-DIY\\Reports\\20260428_102223\\5. Token-based Booking Flow\\20260428_102223\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="Arjun - ARM1221-004"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.1.1.0"/>
+         <property name="browser" value="Chrome 147.0.7727.102"/>
+         <property name="userFullName" value="Arjun R Nath"/>
+         <property name="hostAddress" value="172.18.0.39"/>
+         <property name="sessionId" value="352bec22249135569f3b75ffae1ef5bb"/>
+         <property name="projectName" value="MarQ-Event-Manager-DIY"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/5. Token Booking Flow/TC12 - Token Booking Event Offline" time="146.649" classname="Test Cases/5. Token Booking Flow/TC12 - Token Booking Event Offline" status="PASSED">
+         <system-out><![CDATA[28-04-2026T10:22:29 - [TEST_CASE][PASSED] - Test Cases/5. Token Booking Flow/TC12 - Token Booking Event Offline: Test Cases/5. Token Booking Flow/TC12 - Token Booking Event Offline
+
+28-04-2026T10:22:30 - [TEST_STEP][PASSED] - testData = ["url":"https://marq.iscriptsdemo.com/login", "email":"success.test@yopmail.com", "pass":"Test@123", "prompt":"Create a Token-Based Booking Test Event", ... ]: null
+
+28-04-2026T10:22:30 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://marq.iscriptsdemo.com/login'
+
+28-04-2026T10:22:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-04-2026T10:22:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-04-2026T10:22:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://marq.iscriptsdemo.com/login'
+
+28-04-2026T10:22:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-04-2026T10:22:37 - [MESSAGE][PASSED] - Current window maximized
+
+28-04-2026T10:22:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_marQ - Event Management/Logout/input_Enter Your Email Address"), email): Text 'success.test@yopmail.com' is set on object 'Object Repository/Page_marQ - Event Management/Logout/input_Enter Your Email Address'
+
+28-04-2026T10:22:40 - [MESSAGE][PASSED] - Text 'success.test@yopmail.com' is set on object 'Object Repository/Page_marQ - Event Management/Logout/input_Enter Your Email Address'
+
+28-04-2026T10:22:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_marQ - Event Management/Logout/input_Enter Your Password"), pass): Text 'Test@123' is set on object 'Object Repository/Page_marQ - Event Management/Logout/input_Enter Your Password'
+
+28-04-2026T10:22:41 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Page_marQ - Event Management/Logout/input_Enter Your Password'
+
+28-04-2026T10:22:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_marQ - Event Management/Logout/input_logIn_loginbtn_LnnFD")): Object: 'Object Repository/Page_marQ - Event Management/Logout/input_logIn_loginbtn_LnnFD' is clicked on
+
+28-04-2026T10:22:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Logout/input_logIn_loginbtn_LnnFD' is clicked on
+
+28-04-2026T10:22:41 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event"), 20): Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event' is clickable
+
+28-04-2026T10:22:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event' is clickable
+
+28-04-2026T10:22:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event' is clicked on
+
+28-04-2026T10:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event' is clicked on
+
+28-04-2026T10:22:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/textarea_AI_eventPrompt"), prompt): Text 'Create a Token-Based Booking Test Event' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/textarea_AI_eventPrompt'
+
+28-04-2026T10:22:58 - [MESSAGE][PASSED] - Text 'Create a Token-Based Booking Test Event' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/textarea_AI_eventPrompt'
+
+28-04-2026T10:22:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Generate Setup")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Generate Setup' is clicked on
+
+28-04-2026T10:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Generate Setup' is clicked on
+
+28-04-2026T10:22:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup"), 30): Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup' is visible
+
+28-04-2026T10:23:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup' is visible
+
+28-04-2026T10:23:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup' is clicked on
+
+28-04-2026T10:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup' is clicked on
+
+28-04-2026T10:23:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup_Draft")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup_Draft' is clicked on
+
+28-04-2026T10:23:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup_Draft' is clicked on
+
+28-04-2026T10:23:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_EventCategory_tokenBasedEvent")): Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_EventCategory_tokenBasedEvent' is clicked on
+
+28-04-2026T10:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_EventCategory_tokenBasedEvent' is clicked on
+
+28-04-2026T10:23:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Save draft  Continue")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Save draft  Continue' is clicked on
+
+28-04-2026T10:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Save draft  Continue' is clicked on
+
+28-04-2026T10:23:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/input_Event Basics_eventName"), eventName): Text 'Token-Based Offline Event Test K' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/input_Event Basics_eventName'
+
+28-04-2026T10:23:24 - [MESSAGE][PASSED] - Text 'Token-Based Offline Event Test K' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/input_Event Basics_eventName'
+
+28-04-2026T10:23:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_tokenPurchaseAmount"), tokens): Text '5' is set on object 'Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_tokenPurchaseAmount'
+
+28-04-2026T10:23:24 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_tokenPurchaseAmount'
+
+28-04-2026T10:23:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_minNumberofTokens"), minTokens): Text '2' is set on object 'Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_minNumberofTokens'
+
+28-04-2026T10:23:25 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_minNumberofTokens'
+
+28-04-2026T10:23:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_startup")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_startup' is clicked on
+
+28-04-2026T10:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_startup' is clicked on
+
+28-04-2026T10:23:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_Next")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_Next' is clicked on
+
+28-04-2026T10:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_Next' is clicked on
+
+28-04-2026T10:23:26 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndDate")): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndDate' is clicked on
+
+28-04-2026T10:23:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndDate' is clicked on
+
+28-04-2026T10:23:34 - [TEST_STEP][PASSED] - com.utils.CalendarHelper.selectDate(endMY, endDay): com.utils.CalendarHelper.selectDate is PASSED
+
+28-04-2026T10:23:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is visible
+
+28-04-2026T10:23:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is: 'April 2026'
+
+28-04-2026T10:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/btn_next_month' is clicked on
+
+28-04-2026T10:23:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+28-04-2026T10:23:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is: 'May 2026'
+
+28-04-2026T10:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/btn_next_month' is clicked on
+
+28-04-2026T10:23:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+28-04-2026T10:23:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is: 'June 2026'
+
+28-04-2026T10:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calendar_day' is clicked on
+
+28-04-2026T10:23:38 - [MESSAGE][PASSED] - com.utils.CalendarHelper.selectDate is PASSED
+
+28-04-2026T10:23:38 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartDate")): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartDate' is clicked on
+
+28-04-2026T10:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartDate' is clicked on
+
+28-04-2026T10:23:39 - [TEST_STEP][PASSED] - com.utils.CalendarHelper.selectDate(startMY, startDay): com.utils.CalendarHelper.selectDate is PASSED
+
+28-04-2026T10:23:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is visible
+
+28-04-2026T10:23:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is: 'April 2026'
+
+28-04-2026T10:23:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/btn_next_month' is clicked on
+
+28-04-2026T10:23:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+28-04-2026T10:23:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is: 'May 2026'
+
+28-04-2026T10:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/btn_next_month' is clicked on
+
+28-04-2026T10:23:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+28-04-2026T10:23:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is: 'June 2026'
+
+28-04-2026T10:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calendar_day' is clicked on
+
+28-04-2026T10:23:44 - [MESSAGE][PASSED] - com.utils.CalendarHelper.selectDate is PASSED
+
+28-04-2026T10:23:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartTime")): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartTime' is clicked on
+
+28-04-2026T10:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartTime' is clicked on
+
+28-04-2026T10:23:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":startHr])): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour' is clicked on
+
+28-04-2026T10:23:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour' is clicked on
+
+28-04-2026T10:23:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":startMin])): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute' is clicked on
+
+28-04-2026T10:23:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute' is clicked on
+
+28-04-2026T10:23:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndTime")): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndTime' is clicked on
+
+28-04-2026T10:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndTime' is clicked on
+
+28-04-2026T10:23:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":endHr])): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour' is clicked on
+
+28-04-2026T10:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour' is clicked on
+
+28-04-2026T10:23:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":endMin])): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute' is clicked on
+
+28-04-2026T10:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute' is clicked on
+
+28-04-2026T10:23:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/input_DateAndLocation_physicalVenue"), venue): Text 'Casablanca' is set on object 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/input_DateAndLocation_physicalVenue'
+
+28-04-2026T10:23:48 - [MESSAGE][PASSED] - Text 'Casablanca' is set on object 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/input_DateAndLocation_physicalVenue'
+
+28-04-2026T10:23:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/input_DateAndLocation_physicalLocation"), venue): Text 'Casablanca' is set on object 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/input_DateAndLocation_physicalLocation'
+
+28-04-2026T10:23:49 - [MESSAGE][PASSED] - Text 'Casablanca' is set on object 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/input_DateAndLocation_physicalLocation'
+
+28-04-2026T10:23:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Location Configuration/div_eventLocation_selectionAddress")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Location Configuration/div_eventLocation_selectionAddress' is clicked on
+
+28-04-2026T10:23:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Location Configuration/div_eventLocation_selectionAddress' is clicked on
+
+28-04-2026T10:23:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_DateLocation_Next")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_DateLocation_Next' is clicked on
+
+28-04-2026T10:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_DateLocation_Next' is clicked on
+
+28-04-2026T10:23:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-facebook"), fbUrl, OPTIONAL): Text 'https://www.facebook.com/SachinTendulkar/' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-facebook'
+
+28-04-2026T10:23:56 - [MESSAGE][PASSED] - Text 'https://www.facebook.com/SachinTendulkar/' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-facebook'
+
+28-04-2026T10:23:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-instagram"), igUrl, OPTIONAL): Text 'https://www.instagram.com/sachintendulkar/?hl=en' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-instagram'
+
+28-04-2026T10:23:57 - [MESSAGE][PASSED] - Text 'https://www.instagram.com/sachintendulkar/?hl=en' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-instagram'
+
+28-04-2026T10:23:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/button_mediaBranding_Next")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/button_mediaBranding_Next' is clicked on
+
+28-04-2026T10:23:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/button_mediaBranding_Next' is clicked on
+
+28-04-2026T10:23:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addVendor")): Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addVendor' is clicked on
+
+28-04-2026T10:24:08 - [MESSAGE][WARNING] - Waiting for element timed out
+
+28-04-2026T10:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addVendor' is clicked on
+
+28-04-2026T10:24:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_vendorSelect")): Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_vendorSelect' is clicked on
+
+28-04-2026T10:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_vendorSelect' is clicked on
+
+28-04-2026T10:24:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addToEvent")): Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addToEvent' is clicked on
+
+28-04-2026T10:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addToEvent' is clicked on
+
+28-04-2026T10:24:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_food_Next")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_food_Next' is clicked on
+
+28-04-2026T10:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_food_Next' is clicked on
+
+28-04-2026T10:24:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_policyDetails_AI suggest")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_policyDetails_AI suggest' is clicked on
+
+28-04-2026T10:24:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_policyDetails_AI suggest' is clicked on
+
+28-04-2026T10:24:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_tandC_AI suggest")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_tandC_AI suggest' is clicked on
+
+28-04-2026T10:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_tandC_AI suggest' is clicked on
+
+28-04-2026T10:24:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_Next")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_Next' is clicked on
+
+28-04-2026T10:24:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_Next' is clicked on
+
+28-04-2026T10:24:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_tandn_Next")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_tandn_Next' is clicked on
+
+28-04-2026T10:24:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_tandn_Next' is clicked on
+
+28-04-2026T10:24:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/input_addDet_eventDesc"), description): Text 'Token-Based Offline Booking Event Testing Using Katalon' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/input_addDet_eventDesc'
+
+28-04-2026T10:24:36 - [MESSAGE][PASSED] - Text 'Token-Based Offline Booking Event Testing Using Katalon' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/input_addDet_eventDesc'
+
+28-04-2026T10:24:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_addDet_Next")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_addDet_Next' is clicked on
+
+28-04-2026T10:24:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_addDet_Next' is clicked on
+
+28-04-2026T10:24:37 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish"), 15): Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish' is clickable
+
+28-04-2026T10:24:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish' is clickable
+
+28-04-2026T10:24:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish' is clicked on
+
+28-04-2026T10:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish' is clicked on
+
+28-04-2026T10:24:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_marQ - Event Management/Dashboard/events_Logo"), 15): Object 'Object Repository/Page_marQ - Event Management/Dashboard/events_Logo' is present
+
+28-04-2026T10:24:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_marQ - Event Management/Dashboard/events_Logo' is present
+
+28-04-2026T10:24:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-04-2026T10:24:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/5. Token Booking Flow/TC13 - Token Booking Event Online" time="136.722" classname="Test Cases/5. Token Booking Flow/TC13 - Token Booking Event Online" status="PASSED">
+         <system-out><![CDATA[28-04-2026T10:24:56 - [TEST_CASE][PASSED] - Test Cases/5. Token Booking Flow/TC13 - Token Booking Event Online: Test Cases/5. Token Booking Flow/TC13 - Token Booking Event Online
+
+28-04-2026T10:24:56 - [TEST_STEP][PASSED] - testData = ["url":"https://marq.iscriptsdemo.com/login", "email":"success.test@yopmail.com", "pass":"Test@123", "prompt":"Create a Token-Based Booking Test Event", ... ]: null
+
+28-04-2026T10:24:56 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://marq.iscriptsdemo.com/login'
+
+28-04-2026T10:24:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-04-2026T10:24:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-04-2026T10:25:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://marq.iscriptsdemo.com/login'
+
+28-04-2026T10:25:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-04-2026T10:25:02 - [MESSAGE][PASSED] - Current window maximized
+
+28-04-2026T10:25:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_marQ - Event Management/Logout/input_Enter Your Email Address"), email): Text 'success.test@yopmail.com' is set on object 'Object Repository/Page_marQ - Event Management/Logout/input_Enter Your Email Address'
+
+28-04-2026T10:25:05 - [MESSAGE][PASSED] - Text 'success.test@yopmail.com' is set on object 'Object Repository/Page_marQ - Event Management/Logout/input_Enter Your Email Address'
+
+28-04-2026T10:25:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_marQ - Event Management/Logout/input_Enter Your Password"), pass): Text 'Test@123' is set on object 'Object Repository/Page_marQ - Event Management/Logout/input_Enter Your Password'
+
+28-04-2026T10:25:06 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Page_marQ - Event Management/Logout/input_Enter Your Password'
+
+28-04-2026T10:25:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_marQ - Event Management/Logout/input_logIn_loginbtn_LnnFD")): Object: 'Object Repository/Page_marQ - Event Management/Logout/input_logIn_loginbtn_LnnFD' is clicked on
+
+28-04-2026T10:25:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Logout/input_logIn_loginbtn_LnnFD' is clicked on
+
+28-04-2026T10:25:06 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event"), 20): Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event' is clickable
+
+28-04-2026T10:25:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event' is clickable
+
+28-04-2026T10:25:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event' is clicked on
+
+28-04-2026T10:25:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Create Event' is clicked on
+
+28-04-2026T10:25:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/textarea_AI_eventPrompt"), prompt): Text 'Create a Token-Based Booking Test Event' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/textarea_AI_eventPrompt'
+
+28-04-2026T10:25:22 - [MESSAGE][PASSED] - Text 'Create a Token-Based Booking Test Event' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/textarea_AI_eventPrompt'
+
+28-04-2026T10:25:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Generate Setup")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Generate Setup' is clicked on
+
+28-04-2026T10:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Generate Setup' is clicked on
+
+28-04-2026T10:25:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup"), 30): Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup' is visible
+
+28-04-2026T10:25:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup' is visible
+
+28-04-2026T10:25:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup' is clicked on
+
+28-04-2026T10:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup' is clicked on
+
+28-04-2026T10:25:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup_Draft")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup_Draft' is clicked on
+
+28-04-2026T10:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/AI Event Flow/button_Continue to Event Setup_Draft' is clicked on
+
+28-04-2026T10:25:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_EventCategory_tokenBasedEvent")): Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_EventCategory_tokenBasedEvent' is clicked on
+
+28-04-2026T10:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_EventCategory_tokenBasedEvent' is clicked on
+
+28-04-2026T10:25:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Save draft  Continue")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Save draft  Continue' is clicked on
+
+28-04-2026T10:25:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Save draft  Continue' is clicked on
+
+28-04-2026T10:25:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/input_Event Basics_eventName"), eventName): Text 'Token-Based Online Event Test K' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/input_Event Basics_eventName'
+
+28-04-2026T10:25:48 - [MESSAGE][PASSED] - Text 'Token-Based Online Event Test K' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/input_Event Basics_eventName'
+
+28-04-2026T10:25:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_tokenPurchaseAmount"), tokens): Text '5' is set on object 'Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_tokenPurchaseAmount'
+
+28-04-2026T10:25:49 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_tokenPurchaseAmount'
+
+28-04-2026T10:25:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_minNumberofTokens"), minTokens): Text '2' is set on object 'Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_minNumberofTokens'
+
+28-04-2026T10:25:50 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_marQ - Event Management/Token Booking Flow/input_EventBasics_minNumberofTokens'
+
+28-04-2026T10:25:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_startup")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_startup' is clicked on
+
+28-04-2026T10:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_startup' is clicked on
+
+28-04-2026T10:25:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_Next")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_Next' is clicked on
+
+28-04-2026T10:25:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Event Category and Basics/button_Event Basics_Next' is clicked on
+
+28-04-2026T10:25:51 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndDate")): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndDate' is clicked on
+
+28-04-2026T10:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndDate' is clicked on
+
+28-04-2026T10:25:57 - [TEST_STEP][PASSED] - com.utils.CalendarHelper.selectDate(endMY, endDay): com.utils.CalendarHelper.selectDate is PASSED
+
+28-04-2026T10:25:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is visible
+
+28-04-2026T10:25:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is: 'April 2026'
+
+28-04-2026T10:25:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/btn_next_month' is clicked on
+
+28-04-2026T10:26:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+28-04-2026T10:26:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is: 'May 2026'
+
+28-04-2026T10:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/btn_next_month' is clicked on
+
+28-04-2026T10:26:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+28-04-2026T10:26:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is: 'June 2026'
+
+28-04-2026T10:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calendar_day' is clicked on
+
+28-04-2026T10:26:02 - [MESSAGE][PASSED] - com.utils.CalendarHelper.selectDate is PASSED
+
+28-04-2026T10:26:02 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartDate")): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartDate' is clicked on
+
+28-04-2026T10:26:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartDate' is clicked on
+
+28-04-2026T10:26:03 - [TEST_STEP][PASSED] - com.utils.CalendarHelper.selectDate(startMY, startDay): com.utils.CalendarHelper.selectDate is PASSED
+
+28-04-2026T10:26:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is visible
+
+28-04-2026T10:26:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is: 'April 2026'
+
+28-04-2026T10:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/btn_next_month' is clicked on
+
+28-04-2026T10:26:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+28-04-2026T10:26:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is: 'May 2026'
+
+28-04-2026T10:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/btn_next_month' is clicked on
+
+28-04-2026T10:26:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+28-04-2026T10:26:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calender_header' is: 'June 2026'
+
+28-04-2026T10:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/calendar_day' is clicked on
+
+28-04-2026T10:26:07 - [MESSAGE][PASSED] - com.utils.CalendarHelper.selectDate is PASSED
+
+28-04-2026T10:26:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartTime")): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartTime' is clicked on
+
+28-04-2026T10:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventStartTime' is clicked on
+
+28-04-2026T10:26:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":startHr])): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour' is clicked on
+
+28-04-2026T10:26:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour' is clicked on
+
+28-04-2026T10:26:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":startMin])): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute' is clicked on
+
+28-04-2026T10:26:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute' is clicked on
+
+28-04-2026T10:26:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndTime")): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndTime' is clicked on
+
+28-04-2026T10:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_eventEndTime' is clicked on
+
+28-04-2026T10:26:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour", ["hourValue":endHr])): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour' is clicked on
+
+28-04-2026T10:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeHour' is clicked on
+
+28-04-2026T10:26:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute", ["minuteValue":endMin])): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute' is clicked on
+
+28-04-2026T10:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_timeMinute' is clicked on
+
+28-04-2026T10:26:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_Online Event")): Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_Online Event' is clicked on
+
+28-04-2026T10:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/button_DateAndLocation_Online Event' is clicked on
+
+28-04-2026T10:26:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_selectPlatform"), platform, false): All options with label 'YouTube' are selected in object 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_selectPlatform' 
+
+28-04-2026T10:26:12 - [MESSAGE][PASSED] - All options with label 'YouTube' are selected in object 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/select_DateAndLocation_selectPlatform' 
+
+28-04-2026T10:26:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/input_DateAndLocation_streamingUrl"), streamUrl): Text 'https://www.youtube.com/watch?v=Ct7He3j8Zlg' is set on object 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/input_DateAndLocation_streamingUrl'
+
+28-04-2026T10:26:13 - [MESSAGE][PASSED] - Text 'https://www.youtube.com/watch?v=Ct7He3j8Zlg' is set on object 'Object Repository/Page_marQ - Event Management/Non-Seat Booking Flow/input_DateAndLocation_streamingUrl'
+
+28-04-2026T10:26:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_DateLocation_Next")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_DateLocation_Next' is clicked on
+
+28-04-2026T10:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Date and Location/button_DateLocation_Next' is clicked on
+
+28-04-2026T10:26:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-facebook"), fbUrl, OPTIONAL): Text 'https://www.facebook.com/SachinTendulkar/' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-facebook'
+
+28-04-2026T10:26:19 - [MESSAGE][PASSED] - Text 'https://www.facebook.com/SachinTendulkar/' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-facebook'
+
+28-04-2026T10:26:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-instagram"), igUrl, OPTIONAL): Text 'https://www.instagram.com/sachintendulkar/?hl=en' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-instagram'
+
+28-04-2026T10:26:20 - [MESSAGE][PASSED] - Text 'https://www.instagram.com/sachintendulkar/?hl=en' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/input_mediaBranding_social-instagram'
+
+28-04-2026T10:26:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/button_mediaBranding_Next")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/button_mediaBranding_Next' is clicked on
+
+28-04-2026T10:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Media and Branding/button_mediaBranding_Next' is clicked on
+
+28-04-2026T10:26:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addVendor")): Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addVendor' is clicked on
+
+28-04-2026T10:26:32 - [MESSAGE][WARNING] - Waiting for element timed out
+
+28-04-2026T10:26:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addVendor' is clicked on
+
+28-04-2026T10:26:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_vendorSelect")): Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_vendorSelect' is clicked on
+
+28-04-2026T10:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_vendorSelect' is clicked on
+
+28-04-2026T10:26:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addToEvent")): Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addToEvent' is clicked on
+
+28-04-2026T10:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Token Booking Flow/button_Vendor_addToEvent' is clicked on
+
+28-04-2026T10:26:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_food_Next")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_food_Next' is clicked on
+
+28-04-2026T10:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Food and Beverage/button_food_Next' is clicked on
+
+28-04-2026T10:26:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_policyDetails_AI suggest")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_policyDetails_AI suggest' is clicked on
+
+28-04-2026T10:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_policyDetails_AI suggest' is clicked on
+
+28-04-2026T10:26:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_tandC_AI suggest")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_tandC_AI suggest' is clicked on
+
+28-04-2026T10:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_tandC_AI suggest' is clicked on
+
+28-04-2026T10:26:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_Next")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_Next' is clicked on
+
+28-04-2026T10:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Terms and Settings/button_tands_Next' is clicked on
+
+28-04-2026T10:26:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_tandn_Next")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_tandn_Next' is clicked on
+
+28-04-2026T10:26:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_tandn_Next' is clicked on
+
+28-04-2026T10:26:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/input_addDet_eventDesc"), description): Text 'Token-Based Online Booking Event Testing Using Katalon' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/input_addDet_eventDesc'
+
+28-04-2026T10:26:57 - [MESSAGE][PASSED] - Text 'Token-Based Online Booking Event Testing Using Katalon' is set on object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/input_addDet_eventDesc'
+
+28-04-2026T10:26:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_addDet_Next")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_addDet_Next' is clicked on
+
+28-04-2026T10:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/TandN and Add Details/button_addDet_Next' is clicked on
+
+28-04-2026T10:26:58 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish"), 15): Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish' is clickable
+
+28-04-2026T10:27:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish' is clickable
+
+28-04-2026T10:27:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish")): Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish' is clicked on
+
+28-04-2026T10:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_marQ - Event Management/Seat Booking Flow/Preview and Publish/button_Publish' is clicked on
+
+28-04-2026T10:27:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_marQ - Event Management/Dashboard/events_Logo"), 15): Object 'Object Repository/Page_marQ - Event Management/Dashboard/events_Logo' is present
+
+28-04-2026T10:27:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_marQ - Event Management/Dashboard/events_Logo' is present
+
+28-04-2026T10:27:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-04-2026T10:27:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-04-2026T10:22:29 - [TEST_SUITE][PASSED] - 5. Token-based Booking Flow: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
